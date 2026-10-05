@@ -13,7 +13,8 @@ const QUESTIONS = [
   ],
   "explanation": "París es la capital de Francia.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 0
  },
  {
   "cat": "g",
@@ -26,7 +27,8 @@ const QUESTIONS = [
   ],
   "explanation": "El Pacífico es el océano de mayor superficie.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 1
  },
  {
   "cat": "g",
@@ -39,7 +41,8 @@ const QUESTIONS = [
   ],
   "explanation": "Miguel de Cervantes publicó la primera parte de Don Quijote en 1605.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 2
  },
  {
   "cat": "g",
@@ -52,20 +55,22 @@ const QUESTIONS = [
   ],
   "explanation": "Marte presenta un color rojizo asociado a los óxidos de hierro de su superficie.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 3
  },
  {
   "cat": "g",
-  "text": "¿Cuántos lados tiene un hexágono?",
-  "answer": "Seis",
+  "text": "¿Qué instrumento se utiliza para observar estrellas y planetas lejanos?",
+  "answer": "Telescopio",
   "other": [
-   "Cinco",
-   "Siete",
-   "Ocho"
+   "Microscopio",
+   "Termómetro",
+   "Barómetro"
   ],
-  "explanation": "Un hexágono es un polígono de seis lados.",
+  "explanation": "Un telescopio permite observar objetos lejanos, incluidos cuerpos celestes.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 4
  },
  {
   "cat": "c",
@@ -78,7 +83,8 @@ const QUESTIONS = [
   ],
   "explanation": "El hormigón resiste bien la compresión y las barras de acero aportan resistencia a la tracción.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 5
  },
  {
   "cat": "c",
@@ -91,7 +97,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las fundaciones transmiten las cargas al suelo y ayudan a controlar los asentamientos.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 6
  },
  {
   "cat": "c",
@@ -104,7 +111,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las columnas reciben cargas de otros elementos y las transmiten hacia los niveles inferiores.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 7
  },
  {
   "cat": "c",
@@ -117,7 +125,8 @@ const QUESTIONS = [
   ],
   "explanation": "La planta permite identificar la distribución de recintos, muros y circulaciones.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 8
  },
  {
   "cat": "t",
@@ -130,7 +139,8 @@ const QUESTIONS = [
   ],
   "explanation": "Un aforo contabiliza vehículos en un punto o sección durante un intervalo de tiempo.",
   "set": 1,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 9
  },
  {
   "cat": "g",
@@ -143,7 +153,8 @@ const QUESTIONS = [
   ],
   "explanation": "Ottawa es la capital de Canadá.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 10
  },
  {
   "cat": "g",
@@ -156,7 +167,8 @@ const QUESTIONS = [
   ],
   "explanation": "Chichén Itzá es una ciudad de la civilización maya en la península de Yucatán.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 11
  },
  {
   "cat": "g",
@@ -169,7 +181,8 @@ const QUESTIONS = [
   ],
   "explanation": "La hemoglobina de los glóbulos rojos transporta oxígeno.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 12
  },
  {
   "cat": "g",
@@ -182,46 +195,50 @@ const QUESTIONS = [
   ],
   "explanation": "El nitrógeno representa aproximadamente el 78% del aire seco.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 13
  },
  {
   "cat": "g",
-  "text": "¿Cuál es el 15% de 200?",
-  "answer": "30",
+  "text": "¿Qué continente alberga la cordillera del Himalaya?",
+  "answer": "Asia",
   "other": [
-   "15",
-   "20",
-   "35"
+   "Europa",
+   "África",
+   "Oceanía"
   ],
-  "explanation": "El cálculo es 200 × 0,15 = 30.",
+  "explanation": "El Himalaya se encuentra en Asia.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 14
  },
  {
   "cat": "c",
-  "text": "Una losa mide 5 m por 4 m y tiene 0,15 m de espesor. ¿Cuál es su volumen?",
-  "answer": "3 m³",
+  "text": "¿Cuál es el objetivo principal del curado del hormigón?",
+  "answer": "Favorecer la hidratación del cemento conservando condiciones adecuadas",
   "other": [
-   "2 m³",
-   "5 m³",
-   "30 m³"
+   "Secarlo lo más rápido posible",
+   "Extraer todo el cemento",
+   "Sustituir las armaduras"
   ],
-  "explanation": "El volumen es 5 × 4 × 0,15 = 3 m³.",
+  "explanation": "El curado mantiene condiciones de humedad y temperatura que permiten desarrollar propiedades del hormigón.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 15
  },
  {
   "cat": "c",
-  "text": "Una carga de 20 kN actúa sobre un área de 2 m². ¿Cuál es la presión media?",
-  "answer": "10 kPa",
+  "text": "¿Qué diferencia al mortero del hormigón convencional?",
+  "answer": "El mortero no incluye normalmente árido grueso",
   "other": [
-   "40 kPa",
-   "10 MPa",
-   "20 Pa"
+   "El mortero no utiliza aglomerante",
+   "El hormigón nunca contiene agua",
+   "El mortero contiene siempre barras de acero"
   ],
-  "explanation": "La presión es fuerza dividida por área: 20/2 = 10 kN/m² = 10 kPa.",
+  "explanation": "El mortero habitual contiene aglomerante, agua y árido fino; el hormigón incorpora además árido grueso.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 16
  },
  {
   "cat": "c",
@@ -234,33 +251,36 @@ const QUESTIONS = [
   ],
   "explanation": "Una mayor relación agua/cemento suele dejar más poros y reducir la resistencia.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 17
  },
  {
   "cat": "t",
-  "text": "Un bus pasa cada 10 minutos. ¿Cuál es su frecuencia?",
-  "answer": "6 buses por hora",
+  "text": "¿Qué describe el intervalo entre buses o headway?",
+  "answer": "El tiempo entre el paso de dos buses consecutivos",
   "other": [
-   "10 buses por hora",
-   "12 buses por hora",
-   "4 buses por hora"
+   "El ancho de sus puertas",
+   "La longitud total de la ruta",
+   "El tiempo de vida del motor"
   ],
-  "explanation": "La frecuencia es 60/10 = 6 buses por hora.",
+  "explanation": "El intervalo es la separación temporal entre servicios consecutivos en un punto.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 18
  },
  {
   "cat": "t",
-  "text": "Un vehículo recorre 90 km en 1,5 horas. ¿Cuál es su velocidad media?",
-  "answer": "60 km/h",
+  "text": "¿Qué es la partición modal de los viajes?",
+  "answer": "La distribución de viajes entre modos de transporte",
   "other": [
-   "45 km/h",
-   "90 km/h",
-   "135 km/h"
+   "La división del motor en piezas",
+   "El reparto de semáforos por calle",
+   "La separación del pavimento en capas"
   ],
-  "explanation": "La velocidad media es distancia dividida por tiempo: 90/1,5 = 60 km/h.",
+  "explanation": "La partición modal describe cómo se distribuyen los desplazamientos entre modos como caminar, bus o automóvil.",
   "difficulty": "media",
-  "set": 1
+  "set": 1,
+  "id": 19
  },
  {
   "cat": "g",
@@ -273,7 +293,8 @@ const QUESTIONS = [
   ],
   "explanation": "La segunda ley de Kepler establece la igualdad de áreas barridas en intervalos de tiempo iguales.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 20
  },
  {
   "cat": "g",
@@ -286,33 +307,36 @@ const QUESTIONS = [
   ],
   "explanation": "Marie Curie recibió el Nobel de Física en 1903 y el de Química en 1911.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 21
  },
  {
   "cat": "g",
-  "text": "Una urna tiene 3 bolas rojas y 2 azules. Se extraen dos sin reposición. ¿Cuál es la probabilidad de que ambas sean rojas?",
-  "answer": "3/10",
+  "text": "¿Qué proceso intercambia material genético entre cromosomas homólogos durante la meiosis?",
+  "answer": "Entrecruzamiento",
   "other": [
-   "9/25",
-   "2/5",
-   "3/5"
+   "Traducción",
+   "Gemación",
+   "Fagocitosis"
   ],
-  "explanation": "La probabilidad es (3/5) × (2/4) = 3/10.",
+  "explanation": "El entrecruzamiento permite intercambio de segmentos entre cromosomas homólogos y contribuye a la variabilidad genética.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 22
  },
  {
   "cat": "g",
-  "text": "Si todos los A son B y ningún B es C, ¿qué conclusión es necesariamente cierta?",
-  "answer": "Ningún A es C",
+  "text": "¿Qué tipo de límite entre placas tectónicas se caracteriza por su separación?",
+  "answer": "Divergente",
   "other": [
-   "Todos los C son A",
-   "Todos los B son A",
-   "Algunos A son C"
+   "Convergente",
+   "Transformante",
+   "Estacionario"
   ],
-  "explanation": "Como A está contenido en B y B no tiene elementos en C, A tampoco tiene elementos en C.",
+  "explanation": "En los límites divergentes las placas se separan; puede formarse nueva corteza.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 23
  },
  {
   "cat": "g",
@@ -325,72 +349,78 @@ const QUESTIONS = [
   ],
   "explanation": "El ARN utiliza uracilo donde el ADN utiliza timina.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 24
  },
  {
   "cat": "c",
-  "text": "Una viga simplemente apoyada de 6 m tiene una carga central de 12 kN. ¿Cuál es su momento flector máximo?",
-  "answer": "18 kN·m",
+  "text": "¿Qué distingue la ductilidad de la resistencia de un material?",
+  "answer": "La ductilidad permite deformación plástica antes de la rotura",
   "other": [
-   "12 kN·m",
-   "36 kN·m",
-   "72 kN·m"
+   "La ductilidad mide solo el peso",
+   "La resistencia elimina toda deformación",
+   "Ambas significan exactamente lo mismo"
   ],
-  "explanation": "Las reacciones son 6 kN; el momento máximo en el centro es 6 × 3 = 18 kN·m.",
+  "explanation": "La ductilidad describe capacidad de deformación plástica; la resistencia describe capacidad de soportar esfuerzos.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 25
  },
  {
   "cat": "c",
-  "text": "Para una sección rectangular, I = b·h³/12. Si se duplica h manteniendo b, ¿cómo cambia I?",
-  "answer": "Se multiplica por 8",
+  "text": "¿Por qué las vigas suelen ser más altas en la dirección de la flexión principal?",
+  "answer": "La distribución del material respecto del eje mejora la rigidez a flexión",
   "other": [
-   "Se multiplica por 2",
-   "Se multiplica por 4",
-   "Se divide por 2"
+   "La altura elimina las cargas",
+   "El ancho deja de influir en cualquier propiedad",
+   "La altura vuelve innecesarios los apoyos"
   ],
-  "explanation": "La altura está elevada al cubo: 2³ = 8.",
+  "explanation": "La geometría de la sección influye fuertemente en su rigidez a flexión, especialmente la distribución del material lejos del eje neutro.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 26
  },
  {
   "cat": "c",
-  "text": "En el modelo de Euler, Pcr = π²EI/(KL)². Si se duplica L y lo demás no cambia, ¿qué ocurre con Pcr?",
-  "answer": "Se reduce a un cuarto",
+  "text": "¿Qué fenómeno puede causar la falla de una columna esbelta comprimida antes de agotar su resistencia a compresión?",
+  "answer": "Pandeo",
   "other": [
-   "Se duplica",
-   "Se reduce a la mitad",
-   "Se cuadruplica"
+   "Evaporación",
+   "Capilaridad",
+   "Abrasión superficial"
   ],
-  "explanation": "La carga crítica es inversamente proporcional a L², por lo que pasa a Pcr/4.",
+  "explanation": "El pandeo es una pérdida de estabilidad que produce deformación lateral en un elemento comprimido.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 27
  },
  {
   "cat": "t",
-  "text": "Usando q = k·v, con densidad de 25 veh/km y velocidad de 40 km/h, ¿cuál es el flujo?",
-  "answer": "1.000 veh/h",
+  "text": "¿Qué diferencia la confiabilidad del tiempo de viaje de su valor promedio?",
+  "answer": "La confiabilidad considera la variación y predictibilidad entre viajes",
   "other": [
-   "625 veh/h",
-   "1.600 veh/h",
-   "65 veh/h"
+   "La confiabilidad mide solo la distancia",
+   "El promedio describe todas las variaciones por sí solo",
+   "La confiabilidad equivale a la velocidad máxima legal"
   ],
-  "explanation": "El flujo es 25 × 40 = 1.000 veh/h, con magnitudes compatibles del mismo flujo de tránsito.",
+  "explanation": "Una ruta puede tener un promedio aceptable y, aun así, tiempos muy variables e impredecibles.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 28
  },
  {
   "cat": "t",
-  "text": "En un modelo simplificado, la saturación es 1.800 veh/h y el verde efectivo 30 s de un ciclo de 90 s. ¿Cuál es la capacidad?",
-  "answer": "600 veh/h",
+  "text": "¿Qué es el flujo de saturación en una intersección semaforizada?",
+  "answer": "La tasa de descarga de una cola durante verde bajo condiciones definidas",
   "other": [
-   "900 veh/h",
-   "1.200 veh/h",
-   "1.800 veh/h"
+   "La cantidad de vehículos estacionados en todo el barrio",
+   "La velocidad máxima de un bus",
+   "El tiempo total de luz roja"
   ],
-  "explanation": "La capacidad es s × g/C = 1.800 × 30/90 = 600 veh/h.",
+  "explanation": "El flujo de saturación caracteriza la descarga sostenida de vehículos en cola cuando disponen de verde.",
   "difficulty": "dificil",
-  "set": 1
+  "set": 1,
+  "id": 29
  },
  {
   "cat": "g",
@@ -403,7 +433,8 @@ const QUESTIONS = [
   ],
   "explanation": "La cordillera de los Andes se extiende por el oeste de Sudamérica.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 30
  },
  {
   "cat": "g",
@@ -416,7 +447,8 @@ const QUESTIONS = [
   ],
   "explanation": "Los delfines son mamíferos: respiran aire y alimentan a sus crías con leche.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 31
  },
  {
   "cat": "g",
@@ -429,7 +461,8 @@ const QUESTIONS = [
   ],
   "explanation": "Una hora equivale a sesenta minutos.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 32
  },
  {
   "cat": "g",
@@ -442,7 +475,8 @@ const QUESTIONS = [
   ],
   "explanation": "La península italiana tiene una forma que recuerda a una bota.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 33
  },
  {
   "cat": "g",
@@ -455,7 +489,8 @@ const QUESTIONS = [
   ],
   "explanation": "Gabriela Mistral recibió el Premio Nobel de Literatura en 1945.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 34
  },
  {
   "cat": "c",
@@ -468,7 +503,8 @@ const QUESTIONS = [
   ],
   "explanation": "La resistencia es una fuerza por unidad de área. El MPa equivale a un millón de pascales.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 35
  },
  {
   "cat": "c",
@@ -481,7 +517,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las vigas reciben cargas y las transmiten a sus apoyos, normalmente trabajando a flexión y corte.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 36
  },
  {
   "cat": "c",
@@ -494,7 +531,8 @@ const QUESTIONS = [
   ],
   "explanation": "La compactación aumenta la densidad del suelo y puede mejorar su capacidad de soporte.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 37
  },
  {
   "cat": "c",
@@ -507,7 +545,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las losas reciben cargas y las transmiten a vigas, muros o columnas.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 38
  },
  {
   "cat": "t",
@@ -520,7 +559,8 @@ const QUESTIONS = [
   ],
   "explanation": "El rebaje permite salvar el desnivel; su pendiente y continuidad deben facilitar el desplazamiento.",
   "set": 2,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 39
  },
  {
   "cat": "g",
@@ -533,7 +573,8 @@ const QUESTIONS = [
   ],
   "explanation": "La Revolución Francesa comenzó en 1789.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 40
  },
  {
   "cat": "g",
@@ -546,7 +587,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las mitocondrias producen gran parte del ATP en células eucariotas mediante respiración celular.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 41
  },
  {
   "cat": "g",
@@ -559,7 +601,8 @@ const QUESTIONS = [
   ],
   "explanation": "La metamorfosis es una obra de Franz Kafka, publicada en 1915.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 42
  },
  {
   "cat": "g",
@@ -572,33 +615,36 @@ const QUESTIONS = [
   ],
   "explanation": "La escala de Mohs compara la capacidad de un mineral para rayar a otro.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 43
  },
  {
   "cat": "g",
-  "text": "¿Cuál es la suma de los ángulos interiores de un triángulo en un plano?",
-  "answer": "180°",
+  "text": "¿Qué parte de una flor produce el polen?",
+  "answer": "La antera",
   "other": [
-   "90°",
-   "270°",
-   "360°"
+   "El pétalo",
+   "El sépalo",
+   "El ovario"
   ],
-  "explanation": "En geometría euclidiana, los ángulos interiores de un triángulo suman 180°.",
+  "explanation": "Las anteras forman parte de los estambres y producen polen.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 44
  },
  {
   "cat": "c",
-  "text": "En un plano a escala 1:50, una pared mide 8 cm. ¿Cuánto mide realmente?",
-  "answer": "4 m",
+  "text": "¿Qué representa un corte vertical en un plano de un edificio?",
+  "answer": "La vista de su interior al seccionarlo verticalmente",
   "other": [
-   "0,4 m",
-   "8 m",
-   "40 m"
+   "La vista desde arriba sin sección",
+   "El recorrido de un vehículo",
+   "Solo la fachada exterior"
   ],
-  "explanation": "8 cm × 50 = 400 cm = 4 m.",
+  "explanation": "Un corte vertical permite observar alturas, niveles y relaciones entre elementos interiores.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 45
  },
  {
   "cat": "c",
@@ -611,7 +657,8 @@ const QUESTIONS = [
   ],
   "explanation": "Si los apoyos se asientan de manera distinta, la estructura puede distorsionarse y agrietarse.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 46
  },
  {
   "cat": "c",
@@ -624,20 +671,22 @@ const QUESTIONS = [
   ],
   "explanation": "La ley de Hooke relaciona esfuerzo y deformación mediante el módulo de elasticidad E.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 47
  },
  {
   "cat": "t",
-  "text": "En 20 minutos pasan 300 vehículos. ¿Cuál es el flujo equivalente por hora?",
-  "answer": "900 veh/h",
+  "text": "¿Qué se entiende por demora de control en una intersección?",
+  "answer": "El tiempo adicional de viaje asociado al control de la intersección",
   "other": [
-   "600 veh/h",
-   "300 veh/h",
-   "1.200 veh/h"
+   "El tiempo de mantenimiento de una luminaria",
+   "Solo el tiempo de estacionamiento",
+   "El tiempo de construcción de la calle"
   ],
-  "explanation": "Una hora contiene tres intervalos de 20 minutos: 300 × 3 = 900 veh/h.",
+  "explanation": "La demora de control incluye efectos como desacelerar, esperar y acelerar debido al control de tránsito.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 48
  },
  {
   "cat": "t",
@@ -650,7 +699,8 @@ const QUESTIONS = [
   ],
   "explanation": "El flujo suele expresarse en veh/h y la densidad en veh/km.",
   "difficulty": "media",
-  "set": 2
+  "set": 2,
+  "id": 49
  },
  {
   "cat": "g",
@@ -663,33 +713,36 @@ const QUESTIONS = [
   ],
   "explanation": "Las meninas es una obra de Diego Velázquez conservada en el Museo del Prado.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 50
  },
  {
   "cat": "g",
-  "text": "Una población se duplica cada 3 horas. Si comienza con 100 individuos, ¿cuántos hay tras 9 horas?",
-  "answer": "800",
+  "text": "¿Cuál es la función principal de una enzima?",
+  "answer": "Acelerar una reacción química sin consumirse de forma neta",
   "other": [
-   "300",
-   "600",
-   "900"
+   "Cambiar cualquier elemento químico en otro",
+   "Eliminar toda necesidad de energía",
+   "Almacenar toda la información genética"
   ],
-  "explanation": "Ocurren tres duplicaciones: 100 × 2³ = 800.",
+  "explanation": "Las enzimas actúan como catalizadores biológicos y reducen la energía de activación.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 51
  },
  {
   "cat": "g",
-  "text": "¿Cuántas diagonales tiene un hexágono?",
-  "answer": "9",
+  "text": "¿Qué distingue al fenotipo del genotipo?",
+  "answer": "El fenotipo son características observables influidas por genes y ambiente",
   "other": [
-   "6",
-   "12",
-   "15"
+   "El fenotipo es solo la secuencia de ADN",
+   "El genotipo cambia siempre con la alimentación",
+   "Ambos se refieren únicamente al color de ojos"
   ],
-  "explanation": "Un polígono de n lados tiene n(n − 3)/2 diagonales: 6 × 3/2 = 9.",
+  "explanation": "El genotipo corresponde a la constitución genética; el fenotipo incluye su expresión y la influencia del ambiente.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 52
  },
  {
   "cat": "g",
@@ -702,98 +755,106 @@ const QUESTIONS = [
   ],
   "explanation": "El número atómico identifica al elemento por la cantidad de protones.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 53
  },
  {
   "cat": "g",
-  "text": "Una cantidad aumenta 20% y después disminuye 20%. ¿Cómo queda respecto de la original?",
-  "answer": "4% menor",
+  "text": "¿Qué mide la entropía en la termodinámica estadística?",
+  "answer": "La multiplicidad de configuraciones microscópicas compatibles con un estado",
   "other": [
-   "Igual",
-   "4% mayor",
-   "20% menor"
+   "La masa total de un planeta",
+   "La velocidad de una onda sonora",
+   "El número de protones de un átomo"
   ],
-  "explanation": "Los factores se multiplican: 1,20 × 0,80 = 0,96, equivalente a una reducción del 4%.",
+  "explanation": "La entropía se relaciona con las maneras microscópicas de realizar un estado macroscópico.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 54
  },
  {
   "cat": "c",
-  "text": "Una viga simplemente apoyada de 4 m recibe 5 kN/m en toda su longitud. Con Mmax = wL²/8, ¿cuál es Mmax?",
-  "answer": "10 kN·m",
+  "text": "¿Cuál es la diferencia entre rigidez y resistencia estructural?",
+  "answer": "La rigidez se relaciona con deformarse; la resistencia con soportar esfuerzos sin fallar",
   "other": [
-   "5 kN·m",
-   "20 kN·m",
-   "40 kN·m"
+   "Ambas describen exclusivamente el peso",
+   "Una gran rigidez garantiza cualquier resistencia",
+   "La resistencia indica solo la temperatura"
   ],
-  "explanation": "Se obtiene 5 × 4²/8 = 10 kN·m.",
+  "explanation": "Una estructura puede ser rígida sin ser suficientemente resistente, o resistente y relativamente flexible.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 55
  },
  {
   "cat": "c",
-  "text": "Una columna recibe 120 kN sobre 0,02 m². ¿Cuál es su esfuerzo axial medio?",
-  "answer": "6 MPa",
+  "text": "¿Por qué una carga excéntrica puede ser más exigente para una columna que una carga centrada?",
+  "answer": "Porque genera flexión además de compresión",
   "other": [
-   "0,6 MPa",
-   "60 MPa",
-   "2,4 MPa"
+   "Porque elimina la compresión",
+   "Porque reduce siempre el peso propio",
+   "Porque convierte toda carga en tracción pura"
   ],
-  "explanation": "120/0,02 = 6.000 kN/m² = 6.000 kPa = 6 MPa.",
+  "explanation": "La excentricidad introduce una acción de flexión junto a la carga axial.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 56
  },
  {
   "cat": "c",
-  "text": "Una viga en voladizo tiene flecha δ = PL³/(3EI). Si L se duplica, manteniendo lo demás, ¿cómo cambia δ?",
-  "answer": "Se multiplica por 8",
+  "text": "¿Qué es la fluencia lenta o creep del hormigón?",
+  "answer": "El aumento de deformación con el tiempo bajo una carga sostenida",
   "other": [
-   "Se multiplica por 2",
-   "Se multiplica por 4",
-   "Se reduce a la mitad"
+   "La evaporación instantánea de toda el agua",
+   "La recuperación inmediata de toda deformación",
+   "La corrosión exclusiva del moldaje"
   ],
-  "explanation": "La flecha depende del cubo de L, por lo que el factor es 2³ = 8.",
+  "explanation": "El hormigón puede seguir deformándose con el tiempo bajo esfuerzos sostenidos.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 57
  },
  {
   "cat": "t",
-  "text": "Una cola comienza con 10 vehículos. Durante 30 s llegan 0,5 veh/s y salen 0,3 veh/s de forma constante. ¿Cuántos quedan?",
-  "answer": "16 vehículos",
+  "text": "¿Qué puede ocurrir si una cola llena el espacio disponible hasta la intersección anterior?",
+  "answer": "Bloquear movimientos aguas arriba",
   "other": [
-   "6 vehículos",
-   "10 vehículos",
-   "25 vehículos"
+   "Eliminar toda demora de la red",
+   "Duplicar automáticamente la capacidad",
+   "Hacer innecesarios los semáforos"
   ],
-  "explanation": "La cola aumenta (0,5 − 0,3) × 30 = 6 vehículos; termina con 16.",
+  "explanation": "El desbordamiento de cola puede interferir con una intersección anterior y propagar la congestión.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 58
  },
  {
   "cat": "t",
-  "text": "Un bus tarda 50 min en ida, 40 min en vuelta y 10 min en descansos por ciclo. Con salidas cada 10 min, ¿cuántos buses se requieren en un modelo ideal sin reserva?",
-  "answer": "10 buses",
+  "text": "¿Por qué se pueden agrupar buses de una misma línea aunque salgan separados?",
+  "answer": "Las demoras y la acumulación de pasajeros pueden amplificar las diferencias de intervalo",
   "other": [
-   "5 buses",
-   "9 buses",
-   "12 buses"
+   "Porque todos sus conductores viajan a idéntica velocidad",
+   "Porque los pasajeros siempre se reparten por igual",
+   "Porque el intervalo no cambia durante el recorrido"
   ],
-  "explanation": "El tiempo de ciclo es 100 min; la flota mínima ideal es 100/10 = 10 buses.",
+  "explanation": "Un bus atrasado encuentra más pasajeros y puede demorarse más; el siguiente puede alcanzarlo.",
   "difficulty": "dificil",
-  "set": 2
+  "set": 2,
+  "id": 59
  },
  {
   "cat": "g",
-  "text": "¿Cuál de estos números es primo?",
-  "answer": "Siete",
+  "text": "¿Qué idioma se habla mayoritariamente en Brasil?",
+  "answer": "Portugués",
   "other": [
-   "Ocho",
-   "Nueve",
-   "Diez"
+   "Francés",
+   "Italiano",
+   "Español"
   ],
-  "explanation": "El siete solo tiene como divisores positivos al uno y a sí mismo.",
+  "explanation": "El portugués es el idioma oficial de Brasil.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 60
  },
  {
   "cat": "g",
@@ -806,7 +867,8 @@ const QUESTIONS = [
   ],
   "explanation": "Los años bisiestos tienen un día adicional en febrero.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 61
  },
  {
   "cat": "g",
@@ -819,7 +881,8 @@ const QUESTIONS = [
   ],
   "explanation": "Los juegos antiguos se celebraban en Olimpia, Grecia.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 62
  },
  {
   "cat": "g",
@@ -832,7 +895,8 @@ const QUESTIONS = [
   ],
   "explanation": "En un piano acústico, las teclas accionan martillos que golpean cuerdas.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 63
  },
  {
   "cat": "g",
@@ -845,7 +909,8 @@ const QUESTIONS = [
   ],
   "explanation": "Buenos Aires es la capital de Argentina.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 64
  },
  {
   "cat": "c",
@@ -858,7 +923,8 @@ const QUESTIONS = [
   ],
   "explanation": "La vibración facilita la compactación y reduce vacíos.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 65
  },
  {
   "cat": "c",
@@ -871,7 +937,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las cotas indican dimensiones y distancias entre elementos.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 66
  },
  {
   "cat": "c",
@@ -884,7 +951,8 @@ const QUESTIONS = [
   ],
   "explanation": "La canaleta conduce el agua hacia las bajadas de aguas lluvias.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 67
  },
  {
   "cat": "c",
@@ -897,7 +965,8 @@ const QUESTIONS = [
   ],
   "explanation": "El mortero une las unidades de albañilería y ayuda a distribuir cargas.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 68
  },
  {
   "cat": "t",
@@ -910,7 +979,8 @@ const QUESTIONS = [
   ],
   "explanation": "Puede combinar, por ejemplo, camión, tren y barco.",
   "set": 3,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 69
  },
  {
   "cat": "g",
@@ -923,7 +993,8 @@ const QUESTIONS = [
   ],
   "explanation": "Newton formuló tres leyes del movimiento y la ley de gravitación universal.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 70
  },
  {
   "cat": "g",
@@ -936,7 +1007,8 @@ const QUESTIONS = [
   ],
   "explanation": "El estrecho de Gibraltar conecta el Atlántico con el Mediterráneo.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 71
  },
  {
   "cat": "g",
@@ -949,7 +1021,8 @@ const QUESTIONS = [
   ],
   "explanation": "A 25 °C, un pH menor que 7 indica una solución ácida.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 72
  },
  {
   "cat": "g",
@@ -962,33 +1035,36 @@ const QUESTIONS = [
   ],
   "explanation": "Las cuatro estaciones es un conjunto de conciertos de Vivaldi.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 73
  },
  {
   "cat": "g",
-  "text": "¿Cuál es la mediana de 2, 4, 7, 9 y 13?",
-  "answer": "7",
+  "text": "¿Qué movimiento artístico se asocia con Claude Monet?",
+  "answer": "Impresionismo",
   "other": [
-   "4",
-   "9",
-   "6"
+   "Cubismo",
+   "Surrealismo",
+   "Pop art"
   ],
-  "explanation": "Con cinco datos ordenados, la mediana es el tercer valor: 7.",
+  "explanation": "Claude Monet es uno de los principales representantes del impresionismo.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 74
  },
  {
   "cat": "c",
-  "text": "Una sección rectangular mide 0,20 m por 0,30 m. ¿Cuál es su área?",
-  "answer": "0,06 m²",
+  "text": "¿Qué es una junta de dilatación en una construcción?",
+  "answer": "Una separación que permite movimientos relativos entre partes",
   "other": [
-   "0,6 m²",
-   "0,006 m²",
-   "0,50 m²"
+   "Una unión que prohíbe todo movimiento térmico",
+   "Una pintura resistente al agua",
+   "Una técnica de mezcla de cemento"
   ],
-  "explanation": "El área es 0,20 × 0,30 = 0,06 m².",
+  "explanation": "Las juntas permiten acomodar movimientos, por ejemplo por cambios térmicos, y reducir daños asociados.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 75
  },
  {
   "cat": "c",
@@ -1001,7 +1077,8 @@ const QUESTIONS = [
   ],
   "explanation": "Una barrera de vapor limita el paso de vapor; su ubicación depende del diseño y del clima.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 76
  },
  {
   "cat": "c",
@@ -1014,7 +1091,8 @@ const QUESTIONS = [
   ],
   "explanation": "El diagrama de Gantt organiza actividades en una escala temporal.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 77
  },
  {
   "cat": "t",
@@ -1027,7 +1105,8 @@ const QUESTIONS = [
   ],
   "explanation": "La matriz registra viajes de cada zona de origen a cada zona de destino.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 78
  },
  {
   "cat": "t",
@@ -1040,20 +1119,22 @@ const QUESTIONS = [
   ],
   "explanation": "La capacidad se refiere al flujo atendible por unidad de tiempo bajo condiciones específicas.",
   "difficulty": "media",
-  "set": 3
+  "set": 3,
+  "id": 79
  },
  {
   "cat": "g",
-  "text": "Un isótopo tiene vida media de 8 años. Si comienza con 80 g, ¿cuánto queda tras 24 años?",
-  "answer": "10 g",
+  "text": "¿Qué significa que un átomo sea un isótopo de otro del mismo elemento?",
+  "answer": "Tienen igual número de protones y distinto número de neutrones",
   "other": [
-   "20 g",
-   "26,7 g",
-   "40 g"
+   "Tienen siempre distinto número de protones",
+   "No comparten ninguna propiedad química",
+   "Uno carece necesariamente de electrones"
   ],
-  "explanation": "Transcurren tres vidas medias: 80 × (1/2)³ = 10 g.",
+  "explanation": "Los isótopos pertenecen al mismo elemento, pero difieren en su cantidad de neutrones.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 80
  },
  {
   "cat": "g",
@@ -1066,20 +1147,22 @@ const QUESTIONS = [
   ],
   "explanation": "La inclinación del eje cambia la incidencia solar y la duración del día a lo largo de la órbita.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 81
  },
  {
   "cat": "g",
-  "text": "Se lanzan dos dados justos de seis caras. ¿Cuál es la probabilidad de obtener suma 7?",
-  "answer": "1/6",
+  "text": "¿Por qué un eclipse solar no ocurre en cada luna nueva?",
+  "answer": "La órbita lunar está inclinada respecto del plano de la órbita terrestre",
   "other": [
-   "1/12",
-   "1/3",
-   "7/36"
+   "La Luna no gira alrededor de la Tierra",
+   "El Sol deja de emitir luz en luna nueva",
+   "La Tierra pierde su sombra cada mes"
   ],
-  "explanation": "Hay seis resultados favorables entre 36 pares posibles: 6/36 = 1/6.",
+  "explanation": "La inclinación de la órbita lunar hace que la alineación necesaria no se produzca en cada luna nueva.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 82
  },
  {
   "cat": "g",
@@ -1092,85 +1175,92 @@ const QUESTIONS = [
   ],
   "explanation": "En las procariotas el ADN no está encerrado en un núcleo delimitado por membrana.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 83
  },
  {
   "cat": "g",
-  "text": "En un mapa a escala 1:250.000, dos puntos distan 6 cm. ¿Cuál es su distancia representada en línea recta?",
-  "answer": "15 km",
+  "text": "¿Qué significa que una especie sea endémica de una región?",
+  "answer": "Que su distribución natural está restringida a esa región",
   "other": [
-   "1,5 km",
-   "150 km",
-   "2,5 km"
+   "Que puede encontrarse naturalmente en todos los continentes",
+   "Que es necesariamente una especie introducida",
+   "Que todos sus individuos migran cada año"
   ],
-  "explanation": "6 × 250.000 = 1.500.000 cm = 15 km.",
+  "explanation": "El endemismo se refiere a una distribución natural limitada a un área geográfica.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 84
  },
  {
   "cat": "c",
-  "text": "Dos barras axiales del mismo material y longitud tienen áreas A y 2A. Bajo la misma fuerza y con δ = PL/(EA), ¿cómo se comparan sus alargamientos?",
-  "answer": "La barra de área 2A se alarga la mitad",
+  "text": "¿Qué es la retracción del hormigón?",
+  "answer": "Una disminución de volumen que puede ocurrir sin carga externa",
   "other": [
-   "Ambas se alargan igual",
-   "La de área 2A se alarga el doble",
-   "La de área A se alarga la mitad"
+   "Un aumento permanente de volumen por cualquier carga",
+   "La plastificación de las barras de acero",
+   "La desaparición del cemento"
   ],
-  "explanation": "El alargamiento es inversamente proporcional al área, si los demás datos se mantienen.",
+  "explanation": "La retracción puede relacionarse con secado y procesos internos del hormigón, y puede generar fisuras si está restringida.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 85
  },
  {
   "cat": "c",
-  "text": "Una viga de 8 m, apoyada en sus extremos, recibe 16 kN a 2 m del apoyo izquierdo. ¿Cuál es la reacción derecha?",
-  "answer": "4 kN",
+  "text": "¿Qué riesgo plantea una junta fría no prevista en el hormigonado?",
+  "answer": "Una discontinuidad que puede perjudicar la unión entre etapas de colocación",
   "other": [
-   "8 kN",
-   "12 kN",
-   "16 kN"
+   "Una mejora garantizada de la adherencia",
+   "La eliminación de toda fisuración",
+   "La sustitución de la armadura"
   ],
-  "explanation": "Tomando momentos en el apoyo izquierdo: Rd × 8 = 16 × 2, de donde Rd = 4 kN.",
+  "explanation": "Si la colocación se interrumpe y el material previo endurece, la unión con la etapa siguiente puede necesitar un tratamiento adecuado.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 86
  },
  {
   "cat": "c",
-  "text": "Dos actividades de 4 y 6 días se realizan en paralelo; ambas deben terminar antes de otra de 3 días. Sin restricciones adicionales, ¿cuál es la duración mínima?",
-  "answer": "9 días",
+  "text": "¿Qué caracteriza a una actividad de la ruta crítica de un proyecto?",
+  "answer": "Retrasarla puede retrasar el término del proyecto si no se cambia el programa",
   "other": [
-   "7 días",
-   "10 días",
-   "13 días"
+   "Siempre es la actividad más cara",
+   "Siempre requiere más trabajadores",
+   "Puede retrasarse indefinidamente sin efectos"
   ],
-  "explanation": "Las actividades paralelas demoran como máximo 6 días; luego se agregan 3 días: 9 en total.",
+  "explanation": "En la programación habitual, las actividades críticas no disponen de holgura total que permita retrasarlas sin afectar el plazo final.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 87
  },
  {
   "cat": "t",
-  "text": "Se recorre la mitad de una ruta a 30 km/h y la otra mitad a 60 km/h. Sin paradas, ¿cuál es la velocidad media total?",
-  "answer": "40 km/h",
+  "text": "¿Por qué una onda de congestión puede desplazarse hacia atrás mientras los vehículos avanzan?",
+  "answer": "Porque la transición entre estados de tránsito se propaga en dirección distinta a los vehículos",
   "other": [
-   "45 km/h",
-   "50 km/h",
-   "35 km/h"
+   "Porque todos los autos circulan en reversa",
+   "Porque la calle cambia físicamente de sentido",
+   "Porque las ruedas dejan de girar"
   ],
-  "explanation": "Para distancias iguales, la media es 2v1v2/(v1+v2) = 40 km/h.",
+  "explanation": "La propagación de una perturbación del tránsito no tiene por qué coincidir con la dirección del movimiento vehicular.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 88
  },
  {
   "cat": "t",
-  "text": "En un modelo sin pérdidas, un acceso necesita 800 veh/h y tiene saturación de 2.000 veh/h. ¿Qué fracción mínima del ciclo requiere de verde efectivo?",
-  "answer": "40%",
+  "text": "¿Qué es el desfase entre semáforos coordinados?",
+  "answer": "La separación temporal entre puntos de referencia de sus ciclos",
   "other": [
-   "25%",
-   "60%",
-   "80%"
+   "La distancia física entre postes",
+   "El número de focos de cada semáforo",
+   "El cambio de color de la pintura vial"
   ],
-  "explanation": "Con capacidad s × g/C, se necesita g/C = 800/2.000 = 0,40.",
+  "explanation": "Los desfases organizan la relación temporal entre semáforos para favorecer la progresión de vehículos.",
   "difficulty": "dificil",
-  "set": 3
+  "set": 3,
+  "id": 89
  },
  {
   "cat": "g",
@@ -1183,20 +1273,22 @@ const QUESTIONS = [
   ],
   "explanation": "En el básquetbol se busca encestar el balón en la canasta rival.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 90
  },
  {
   "cat": "g",
-  "text": "¿Qué figura tiene todos sus puntos a igual distancia de un centro en un plano?",
-  "answer": "Circunferencia",
+  "text": "¿Cuál es el satélite natural de la Tierra?",
+  "answer": "La Luna",
   "other": [
-   "Triángulo",
-   "Rectángulo",
-   "Trapecio"
+   "Marte",
+   "El Sol",
+   "Venus"
   ],
-  "explanation": "La circunferencia está formada por puntos a una distancia constante de su centro.",
+  "explanation": "La Luna es el satélite natural de la Tierra.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 91
  },
  {
   "cat": "g",
@@ -1209,7 +1301,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las gallinas son aves y se reproducen mediante huevos.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 92
  },
  {
   "cat": "g",
@@ -1222,7 +1315,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las pirámides de Guiza están en Egipto.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 93
  },
  {
   "cat": "g",
@@ -1235,7 +1329,8 @@ const QUESTIONS = [
   ],
   "explanation": "Los oídos permiten percibir sonidos y también participan en el equilibrio.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 94
  },
  {
   "cat": "c",
@@ -1248,7 +1343,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las excavaciones se utilizan, por ejemplo, para fundaciones y zanjas.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 95
  },
  {
   "cat": "c",
@@ -1261,7 +1357,8 @@ const QUESTIONS = [
   ],
   "explanation": "El nivel de burbuja permite verificar horizontalidad o verticalidad según su orientación.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 96
  },
  {
   "cat": "c",
@@ -1274,7 +1371,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las zapatas son fundaciones superficiales que distribuyen las cargas sobre un área del terreno.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 97
  },
  {
   "cat": "t",
@@ -1287,7 +1385,8 @@ const QUESTIONS = [
   ],
   "explanation": "Las rotondas organizan los movimientos alrededor de una isla central.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 98
  },
  {
   "cat": "t",
@@ -1300,7 +1399,8 @@ const QUESTIONS = [
   ],
   "explanation": "La velocidad relaciona distancia recorrida con tiempo.",
   "set": 4,
-  "difficulty": "facil"
+  "difficulty": "facil",
+  "id": 99
  },
  {
   "cat": "g",
@@ -1313,7 +1413,8 @@ const QUESTIONS = [
   ],
   "explanation": "Persia es el nombre histórico asociado a Irán.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 100
  },
  {
   "cat": "g",
@@ -1326,7 +1427,8 @@ const QUESTIONS = [
   ],
   "explanation": "El ADN contiene la información genética celular.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 101
  },
  {
   "cat": "g",
@@ -1339,7 +1441,8 @@ const QUESTIONS = [
   ],
   "explanation": "El julio mide energía; el vatio mide potencia.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 102
  },
  {
   "cat": "g",
@@ -1352,20 +1455,22 @@ const QUESTIONS = [
   ],
   "explanation": "Guernica es una obra de Pablo Picasso realizada en 1937.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 103
  },
  {
   "cat": "g",
-  "text": "Un producto cuesta 80 unidades y tiene 25% de descuento. ¿Cuál es su precio final?",
-  "answer": "60 unidades",
+  "text": "¿Qué científico propuso la teoría de la deriva continental?",
+  "answer": "Alfred Wegener",
   "other": [
-   "55 unidades",
-   "65 unidades",
-   "75 unidades"
+   "Gregor Mendel",
+   "Louis Pasteur",
+   "Antoine Lavoisier"
   ],
-  "explanation": "El descuento es 80 × 0,25 = 20; el precio final es 80 − 20 = 60.",
+  "explanation": "Wegener propuso que los continentes habían estado unidos y se habían desplazado con el tiempo.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 104
  },
  {
   "cat": "c",
@@ -1378,7 +1483,8 @@ const QUESTIONS = [
   ],
   "explanation": "En una estructura isostática estable, el equilibrio es suficiente para hallar las reacciones.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 105
  },
  {
   "cat": "c",
@@ -1391,7 +1497,8 @@ const QUESTIONS = [
   ],
   "explanation": "La relación agua/cemento usa las masas de agua y cemento de la mezcla.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 106
  },
  {
   "cat": "c",
@@ -1404,72 +1511,78 @@ const QUESTIONS = [
   ],
   "explanation": "El ensayo Proctor relaciona humedad y densidad seca para una energía de compactación definida.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 107
  },
  {
   "cat": "t",
-  "text": "Un bus lleva 48 pasajeros y tiene capacidad para 60. ¿Cuál es su ocupación respecto de esa capacidad?",
-  "answer": "80%",
+  "text": "¿Qué mide la ocupación de un servicio de transporte respecto de su capacidad?",
+  "answer": "El grado de utilización de las plazas disponibles",
   "other": [
-   "60%",
-   "75%",
-   "90%"
+   "Solo la longitud de su recorrido",
+   "La velocidad de su motor",
+   "La cantidad de semáforos de su ruta"
   ],
-  "explanation": "La ocupación es 48/60 × 100 = 80%.",
+  "explanation": "La ocupación permite describir qué parte de la capacidad de transporte está siendo utilizada.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 108
  },
  {
   "cat": "t",
-  "text": "Una vía permite 1.200 veh/h y recibe 900 veh/h. ¿Cuál es la relación demanda/capacidad?",
-  "answer": "0,75",
+  "text": "¿Qué suele ocurrir si la demanda de un acceso supera de forma sostenida su capacidad de atención?",
+  "answer": "La cola tiende a crecer",
   "other": [
-   "1,33",
-   "0,25",
-   "0,90"
+   "La espera desaparece automáticamente",
+   "La capacidad siempre aumenta por sí sola",
+   "Todos los vehículos reducen su tamaño"
   ],
-  "explanation": "La relación es 900/1.200 = 0,75.",
+  "explanation": "Si ingresan más vehículos de los que pueden salir, se acumulan vehículos en espera.",
   "difficulty": "media",
-  "set": 4
+  "set": 4,
+  "id": 109
  },
  {
   "cat": "g",
-  "text": "Un reloj atrasa 2 minutos por hora real. Si se ajusta a las 08:00, ¿qué indica seis horas reales después?",
-  "answer": "13:48",
+  "text": "¿Qué cambio de estado lleva directamente de sólido a gas?",
+  "answer": "Sublimación",
   "other": [
-   "14:12",
-   "13:58",
-   "14:00"
+   "Condensación",
+   "Fusión",
+   "Solidificación"
   ],
-  "explanation": "En seis horas pierde 12 minutos; a las 14:00 reales indica 13:48.",
+  "explanation": "La sublimación es el paso directo de sólido a gas sin una fase líquida intermedia.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 110
  },
  {
   "cat": "g",
-  "text": "¿Cuál es el menor entero positivo divisible por 6, 8 y 12?",
-  "answer": "24",
+  "text": "¿Qué establece el principio de exclusión de Pauli para los electrones de un átomo?",
+  "answer": "No pueden compartir todos sus números cuánticos",
   "other": [
-   "12",
-   "48",
-   "96"
+   "Todos deben ocupar el mismo estado",
+   "Todos carecen de carga",
+   "El núcleo no puede contener neutrones"
   ],
-  "explanation": "El mínimo común múltiplo usa 2³ y 3: 8 × 3 = 24.",
+  "explanation": "El principio impide que dos electrones ocupen el mismo estado cuántico completo.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 111
  },
  {
   "cat": "g",
-  "text": "La media de cuatro números es 10. Si se agrega el número 20, ¿cuál es la nueva media?",
-  "answer": "12",
+  "text": "¿Por qué las ondas sonoras no se propagan por el vacío?",
+  "answer": "Necesitan un medio material para transmitir la perturbación",
   "other": [
-   "10",
-   "15",
-   "14"
+   "Su velocidad en el vacío es infinita",
+   "La luz absorbe siempre todo sonido",
+   "Solo existen en medios líquidos"
   ],
-  "explanation": "La suma inicial es 40; (40 + 20)/5 = 12.",
+  "explanation": "El sonido es una onda mecánica y necesita un medio material para propagarse.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 112
  },
  {
   "cat": "g",
@@ -1482,85 +1595,92 @@ const QUESTIONS = [
   ],
   "explanation": "La expansión del universo estira las longitudes de onda de la luz durante su viaje.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 113
  },
  {
   "cat": "g",
-  "text": "¿Cuál es la probabilidad de obtener exactamente dos caras en tres lanzamientos de una moneda justa?",
-  "answer": "3/8",
+  "text": "¿Qué efecto tiene un inhibidor competitivo sobre una enzima?",
+  "answer": "Compite con el sustrato por el sitio activo",
   "other": [
-   "1/8",
-   "1/2",
-   "3/4"
+   "Destruye necesariamente toda la enzima",
+   "Transforma el ADN de cualquier célula",
+   "Sustituye siempre al producto final"
   ],
-  "explanation": "Hay tres secuencias con dos caras entre ocho secuencias equiprobables.",
+  "explanation": "Un inhibidor competitivo ocupa el sitio activo e interfiere con la unión del sustrato.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 114
  },
  {
   "cat": "c",
-  "text": "Una sección rectangular tiene momento M constante y esfuerzo máximo σ = Mc/I. Al duplicar su altura manteniendo el ancho, ¿qué ocurre con σ?",
-  "answer": "Se reduce a un cuarto",
+  "text": "¿Qué puede provocar la reacción álcali-sílice en un hormigón susceptible con humedad disponible?",
+  "answer": "Expansión y fisuración",
   "other": [
-   "Se reduce a la mitad",
-   "Se duplica",
-   "Se mantiene igual"
+   "Una reducción garantizada de la porosidad",
+   "La eliminación de cualquier retracción",
+   "La transformación del acero en cemento"
   ],
-  "explanation": "La distancia c se duplica y la inercia I se multiplica por ocho: el esfuerzo pasa a 2/8 = 1/4.",
+  "explanation": "La reacción produce un gel que puede expandirse al incorporar humedad y generar fisuración.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 115
  },
  {
   "cat": "c",
-  "text": "En una sección rectangular, una fuerza axial pasa por el centroide. Si la fuerza se aplica excéntricamente una distancia e, ¿qué solicitación adicional aparece?",
-  "answer": "Un momento de magnitud P·e",
+  "text": "¿Por qué la carbonatación puede favorecer la corrosión de armaduras cuando alcanza el acero?",
+  "answer": "Reduce la alcalinidad que ayuda a mantener su protección pasiva",
   "other": [
-   "Una fuerza adicional de magnitud P/e",
-   "Una reducción automática de masa",
-   "Una desaparición del esfuerzo axial"
+   "Convierte el acero en árido grueso",
+   "Aumenta siempre el recubrimiento",
+   "Elimina permanentemente la humedad"
   ],
-  "explanation": "Una carga excéntrica equivale a una fuerza axial y un momento P × e.",
+  "explanation": "La reducción de alcalinidad puede despasivar el acero; la corrosión también depende de condiciones como humedad y oxígeno.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 116
  },
  {
   "cat": "c",
-  "text": "Se requieren 2 m³ de mezcla por pieza para 6 piezas y se agrega un 5% de margen sobre el volumen neto. ¿Cuánto se solicita?",
-  "answer": "12,6 m³",
+  "text": "¿Qué es la licuefacción de un suelo durante un sismo?",
+  "answer": "La pérdida importante de resistencia por aumento de presión de poros en un suelo susceptible",
   "other": [
-   "12,05 m³",
-   "13,2 m³",
-   "10,8 m³"
+   "La fusión del suelo por calor volcánico",
+   "El endurecimiento instantáneo de cualquier roca",
+   "La eliminación de todo el agua subterránea"
   ],
-  "explanation": "El volumen neto es 12 m³; con 5% adicional: 12 × 1,05 = 12,6 m³.",
+  "explanation": "En ciertos suelos granulares saturados, el aumento de presión de poros reduce el esfuerzo efectivo y la resistencia.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 117
  },
  {
   "cat": "t",
-  "text": "Los cuatro conteos de 15 min son 200, 250, 300 y 250 vehículos. Con FHP = volumen horario/(4 × máximo conteo), ¿cuál es FHP?",
-  "answer": "0,8333 aproximadamente",
+  "text": "¿Qué distingue a la capacidad de un acceso semaforizado del flujo de saturación?",
+  "answer": "La capacidad considera la proporción de tiempo útil disponible para atender vehículos",
   "other": [
-   "1,2000",
-   "0,2500",
-   "1,0000"
+   "Son siempre iguales sin importar el semáforo",
+   "La capacidad describe solo vehículos estacionados",
+   "El flujo de saturación mide peatones por superficie"
   ],
-  "explanation": "El volumen es 1.000; FHP = 1.000/(4 × 300) = 0,8333 aproximadamente.",
+  "explanation": "El flujo de saturación caracteriza la descarga en condiciones definidas; la capacidad incorpora el tiempo efectivo de atención.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 118
  },
  {
   "cat": "t",
-  "text": "En un sistema estable, L = λW. Si llegan 120 pasajeros/h y esperan en promedio 5 min, ¿cuántos pasajeros hay en promedio en la espera?",
-  "answer": "10 pasajeros",
+  "text": "¿Qué es el bombeo de finos en un pavimento rígido?",
+  "answer": "La expulsión de agua y material fino por juntas o bordes bajo cargas repetidas",
   "other": [
-   "24 pasajeros",
-   "60 pasajeros",
-   "600 pasajeros"
+   "La colocación de asfalto sobre una señal",
+   "La expansión térmica de una baranda",
+   "El transporte de áridos en camiones"
   ],
-  "explanation": "Se convierte 5 min a 1/12 h: L = 120 × 1/12 = 10 pasajeros.",
+  "explanation": "El bombeo puede remover material de apoyo y contribuir al deterioro de un pavimento de hormigón.",
   "difficulty": "dificil",
-  "set": 4
+  "set": 4,
+  "id": 119
  }
 ].map((q,id)=>({...q,id}));
 const $=id=>document.getElementById(id);
