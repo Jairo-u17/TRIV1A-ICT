@@ -3,7 +3,6 @@
 // Cada pregunta: categoría, enunciado, respuesta correcta, distractores y explicación.
 const QUESTIONS = [
  {
-  "id": 0,
   "cat": "g",
   "text": "¿Cuál es la capital de Francia?",
   "answer": "París",
@@ -13,10 +12,10 @@ const QUESTIONS = [
    "Berlín"
   ],
   "explanation": "París es la capital de Francia.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 1,
   "cat": "g",
   "text": "¿Cuál es el océano más extenso del planeta?",
   "answer": "Océano Pacífico",
@@ -26,10 +25,10 @@ const QUESTIONS = [
    "Océano Ártico"
   ],
   "explanation": "El Pacífico es el océano de mayor superficie.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 2,
   "cat": "g",
   "text": "¿Quién escribió Don Quijote de la Mancha?",
   "answer": "Miguel de Cervantes",
@@ -39,10 +38,10 @@ const QUESTIONS = [
    "William Shakespeare"
   ],
   "explanation": "Miguel de Cervantes publicó la primera parte de Don Quijote en 1605.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 3,
   "cat": "g",
   "text": "¿Qué planeta es conocido como el planeta rojo?",
   "answer": "Marte",
@@ -52,10 +51,10 @@ const QUESTIONS = [
    "Mercurio"
   ],
   "explanation": "Marte presenta un color rojizo asociado a los óxidos de hierro de su superficie.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 4,
   "cat": "g",
   "text": "¿Cuántos lados tiene un hexágono?",
   "answer": "Seis",
@@ -65,140 +64,10 @@ const QUESTIONS = [
    "Ocho"
   ],
   "explanation": "Un hexágono es un polígono de seis lados.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 5,
-  "cat": "g",
-  "text": "¿Cuál es la fórmula química del agua?",
-  "answer": "H₂O",
-  "other": [
-   "CO₂",
-   "O₂",
-   "NaCl"
-  ],
-  "explanation": "Cada molécula de agua contiene dos átomos de hidrógeno y uno de oxígeno.",
-  "set": 1
- },
- {
-  "id": 6,
-  "cat": "g",
-  "text": "¿En qué continente se encuentra Egipto?",
-  "answer": "África",
-  "other": [
-   "Europa",
-   "Oceanía",
-   "América"
-  ],
-  "explanation": "Egipto se ubica principalmente en África; la península del Sinaí está en Asia.",
-  "set": 1
- },
- {
-  "id": 7,
-  "cat": "g",
-  "text": "¿Qué órgano bombea la sangre por el cuerpo?",
-  "answer": "Corazón",
-  "other": [
-   "Pulmón",
-   "Estómago",
-   "Riñón"
-  ],
-  "explanation": "El corazón impulsa la sangre a través del sistema circulatorio.",
-  "set": 1
- },
- {
-  "id": 8,
-  "cat": "g",
-  "text": "¿Qué proceso permite a las plantas utilizar la luz para producir materia orgánica?",
-  "answer": "Fotosíntesis",
-  "other": [
-   "Evaporación",
-   "Condensación",
-   "Fermentación"
-  ],
-  "explanation": "Durante la fotosíntesis, las plantas utilizan energía luminosa para producir materia orgánica a partir de agua y dióxido de carbono.",
-  "set": 1
- },
- {
-  "id": 9,
-  "cat": "g",
-  "text": "¿Quién pintó la Mona Lisa?",
-  "answer": "Leonardo da Vinci",
-  "other": [
-   "Pablo Picasso",
-   "Vincent van Gogh",
-   "Salvador Dalí"
-  ],
-  "explanation": "La Mona Lisa es una obra de Leonardo da Vinci.",
-  "set": 1
- },
- {
-  "id": 10,
-  "cat": "g",
-  "text": "¿Cuántos jugadores por equipo están en cancha al comenzar un partido de fútbol tradicional?",
-  "answer": "Once",
-  "other": [
-   "Cinco",
-   "Siete",
-   "Quince"
-  ],
-  "explanation": "En el fútbol de once, cada equipo comienza con once jugadores, incluido el arquero.",
-  "set": 1
- },
- {
-  "id": 11,
-  "cat": "g",
-  "text": "¿En qué país se encuentra Machu Picchu?",
-  "answer": "Perú",
-  "other": [
-   "Chile",
-   "México",
-   "Colombia"
-  ],
-  "explanation": "Machu Picchu es un sitio inca ubicado en Perú.",
-  "set": 1
- },
- {
-  "id": 12,
-  "cat": "g",
-  "text": "¿Cuál es el satélite natural de la Tierra?",
-  "answer": "La Luna",
-  "other": [
-   "El Sol",
-   "Marte",
-   "Saturno"
-  ],
-  "explanation": "La Luna es el satélite natural de la Tierra.",
-  "set": 1
- },
- {
-  "id": 13,
-  "cat": "g",
-  "text": "¿Qué instrumento se utiliza para medir la temperatura?",
-  "answer": "Termómetro",
-  "other": [
-   "Barómetro",
-   "Cronómetro",
-   "Brújula"
-  ],
-  "explanation": "Un termómetro permite medir la temperatura.",
-  "set": 1
- },
- {
-  "id": 14,
-  "cat": "g",
-  "text": "¿Quién escribió Cien años de soledad?",
-  "answer": "Gabriel García Márquez",
-  "other": [
-   "Julio Cortázar",
-   "Mario Vargas Llosa",
-   "Isabel Allende"
-  ],
-  "explanation": "Cien años de soledad fue escrita por Gabriel García Márquez.",
-  "set": 1
- },
- {
-  "id": 20,
   "cat": "c",
   "text": "¿Qué material se combina con el hormigón para formar hormigón armado?",
   "answer": "Acero",
@@ -208,10 +77,10 @@ const QUESTIONS = [
    "Plástico"
   ],
   "explanation": "El hormigón resiste bien la compresión y las barras de acero aportan resistencia a la tracción.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 21,
   "cat": "c",
   "text": "¿Cuál es la función principal de una fundación?",
   "answer": "Transmitir las cargas de la estructura al terreno",
@@ -221,10 +90,10 @@ const QUESTIONS = [
    "Conducir agua potable"
   ],
   "explanation": "Las fundaciones transmiten las cargas al suelo y ayudan a controlar los asentamientos.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 22,
   "cat": "c",
   "text": "¿Qué elemento estructural suele ser vertical y transmitir cargas hacia la fundación?",
   "answer": "Una columna",
@@ -234,10 +103,10 @@ const QUESTIONS = [
    "Una baranda"
   ],
   "explanation": "Las columnas reciben cargas de otros elementos y las transmiten hacia los niveles inferiores.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 23,
   "cat": "c",
   "text": "¿Qué representa una vista en planta de un edificio?",
   "answer": "Una vista desde arriba obtenida mediante un corte horizontal",
@@ -247,88 +116,10 @@ const QUESTIONS = [
    "Una vista desde abajo"
   ],
   "explanation": "La planta permite identificar la distribución de recintos, muros y circulaciones.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 24,
-  "cat": "c",
-  "text": "En un plano a escala 1:100, ¿cuánto representa 1 cm en la realidad?",
-  "answer": "1 metro",
-  "other": [
-   "10 metros",
-   "10 centímetros",
-   "100 metros"
-  ],
-  "explanation": "Cada unidad dibujada equivale a 100 unidades reales: 1 cm equivale a 100 cm, es decir, 1 m.",
-  "set": 1
- },
- {
-  "id": 25,
-  "cat": "c",
-  "text": "¿Para qué se utiliza un encofrado o moldaje?",
-  "answer": "Dar forma al hormigón fresco hasta que pueda sostenerse",
-  "other": [
-   "Medir el tránsito",
-   "Pintar el acero",
-   "Demoler una losa"
-  ],
-  "explanation": "El moldaje contiene y da forma al hormigón mientras adquiere resistencia.",
-  "set": 1
- },
- {
-  "id": 26,
-  "cat": "c",
-  "text": "¿Cuál es el objetivo del curado del hormigón?",
-  "answer": "Mantener condiciones de humedad y temperatura para que desarrolle resistencia",
-  "other": [
-   "Secarlo lo más rápido posible",
-   "Eliminar el cemento",
-   "Convertirlo en asfalto"
-  ],
-  "explanation": "El curado favorece la hidratación del cemento y reduce la pérdida temprana de humedad.",
-  "set": 1
- },
- {
-  "id": 27,
-  "cat": "c",
-  "text": "¿Qué ensayo se usa habitualmente para evaluar la trabajabilidad del hormigón fresco?",
-  "answer": "Cono de Abrams",
-  "other": [
-   "Ensayo de ruido",
-   "Prueba de velocidad",
-   "Ensayo de tracción del acero"
-  ],
-  "explanation": "El cono de Abrams mide el asentamiento del hormigón fresco, un indicador de su consistencia.",
-  "set": 1
- },
- {
-  "id": 28,
-  "cat": "c",
-  "text": "¿Qué instrumento sirve para medir ángulos y distancias en topografía?",
-  "answer": "Estación total",
-  "other": [
-   "Termómetro",
-   "Manómetro",
-   "Cronómetro"
-  ],
-  "explanation": "Una estación total combina medición angular y de distancias para determinar posiciones.",
-  "set": 1
- },
- {
-  "id": 29,
-  "cat": "c",
-  "text": "¿Cuál de estos elementos es un equipo de protección personal?",
-  "answer": "Casco de seguridad",
-  "other": [
-   "Carretilla",
-   "Andamio",
-   "Hormigonera"
-  ],
-  "explanation": "El casco es un equipo de protección personal que ayuda a proteger la cabeza frente a impactos.",
-  "set": 1
- },
- {
-  "id": 33,
   "cat": "t",
   "text": "¿Qué mide un aforo vehicular?",
   "answer": "La cantidad de vehículos que pasa durante un período",
@@ -338,62 +129,270 @@ const QUESTIONS = [
    "La altura de un semáforo"
   ],
   "explanation": "Un aforo contabiliza vehículos en un punto o sección durante un intervalo de tiempo.",
-  "set": 1
+  "set": 1,
+  "difficulty": "facil"
  },
  {
-  "id": 34,
-  "cat": "t",
-  "text": "¿En qué unidad suele expresarse el flujo vehicular?",
-  "answer": "Vehículos por hora",
+  "cat": "g",
+  "text": "¿Qué país tiene como capital a Ottawa?",
+  "answer": "Canadá",
   "other": [
-   "Metros cúbicos",
-   "Toneladas por metro",
-   "Segundos por kilogramo"
+   "Australia",
+   "Nueva Zelanda",
+   "Irlanda"
   ],
-  "explanation": "El flujo es el número de vehículos que pasa por una sección por unidad de tiempo.",
+  "explanation": "Ottawa es la capital de Canadá.",
+  "difficulty": "media",
   "set": 1
  },
  {
-  "id": 35,
-  "cat": "t",
-  "text": "¿Qué se entiende por hora punta?",
-  "answer": "El período de mayor demanda de viajes",
+  "cat": "g",
+  "text": "¿Qué civilización construyó Chichén Itzá?",
+  "answer": "La maya",
   "other": [
-   "La hora de menor tránsito",
-   "Un período sin buses",
-   "La hora de cierre de todas las calles"
+   "La inca",
+   "La romana",
+   "La egipcia"
   ],
-  "explanation": "La hora punta concentra una elevada demanda de desplazamientos.",
+  "explanation": "Chichén Itzá es una ciudad de la civilización maya en la península de Yucatán.",
+  "difficulty": "media",
   "set": 1
  },
  {
-  "id": 36,
-  "cat": "t",
-  "text": "¿Para qué sirve una ciclovía?",
-  "answer": "Facilitar la circulación de bicicletas en un espacio destinado a ellas",
+  "cat": "g",
+  "text": "¿Qué componente de la sangre transporta principalmente oxígeno?",
+  "answer": "Glóbulos rojos",
   "other": [
-   "Estacionar camiones",
-   "Almacenar materiales",
-   "Separar pisos de un edificio"
+   "Plaquetas",
+   "Glóbulos blancos",
+   "Linfocitos"
   ],
-  "explanation": "Las ciclovías ofrecen infraestructura destinada a la circulación de bicicletas.",
+  "explanation": "La hemoglobina de los glóbulos rojos transporta oxígeno.",
+  "difficulty": "media",
   "set": 1
  },
  {
-  "id": 37,
-  "cat": "t",
-  "text": "¿Qué es una intersección vial?",
-  "answer": "Un lugar donde se encuentran o cruzan vías",
+  "cat": "g",
+  "text": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+  "answer": "Nitrógeno",
   "other": [
-   "Una capa del pavimento",
-   "Un estacionamiento subterráneo",
-   "Una fundación profunda"
+   "Oxígeno",
+   "Dióxido de carbono",
+   "Hidrógeno"
   ],
-  "explanation": "Las intersecciones conectan vías y concentran movimientos de vehículos y peatones.",
+  "explanation": "El nitrógeno representa aproximadamente el 78% del aire seco.",
+  "difficulty": "media",
   "set": 1
  },
  {
-  "id": 15,
+  "cat": "g",
+  "text": "¿Cuál es el 15% de 200?",
+  "answer": "30",
+  "other": [
+   "15",
+   "20",
+   "35"
+  ],
+  "explanation": "El cálculo es 200 × 0,15 = 30.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "Una losa mide 5 m por 4 m y tiene 0,15 m de espesor. ¿Cuál es su volumen?",
+  "answer": "3 m³",
+  "other": [
+   "2 m³",
+   "5 m³",
+   "30 m³"
+  ],
+  "explanation": "El volumen es 5 × 4 × 0,15 = 3 m³.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "Una carga de 20 kN actúa sobre un área de 2 m². ¿Cuál es la presión media?",
+  "answer": "10 kPa",
+  "other": [
+   "40 kPa",
+   "10 MPa",
+   "20 Pa"
+  ],
+  "explanation": "La presión es fuerza dividida por área: 20/2 = 10 kN/m² = 10 kPa.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué efecto suele tener agregar agua en exceso al hormigón sin cambiar el cemento?",
+  "answer": "Disminuir su resistencia y aumentar su porosidad",
+  "other": [
+   "Aumentar siempre su resistencia",
+   "Eliminar la necesidad de curado",
+   "Convertirlo en hormigón armado"
+  ],
+  "explanation": "Una mayor relación agua/cemento suele dejar más poros y reducir la resistencia.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "t",
+  "text": "Un bus pasa cada 10 minutos. ¿Cuál es su frecuencia?",
+  "answer": "6 buses por hora",
+  "other": [
+   "10 buses por hora",
+   "12 buses por hora",
+   "4 buses por hora"
+  ],
+  "explanation": "La frecuencia es 60/10 = 6 buses por hora.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "t",
+  "text": "Un vehículo recorre 90 km en 1,5 horas. ¿Cuál es su velocidad media?",
+  "answer": "60 km/h",
+  "other": [
+   "45 km/h",
+   "90 km/h",
+   "135 km/h"
+  ],
+  "explanation": "La velocidad media es distancia dividida por tiempo: 90/1,5 = 60 km/h.",
+  "difficulty": "media",
+  "set": 1
+ },
+ {
+  "cat": "g",
+  "text": "Según la segunda ley de Kepler, ¿qué ocurre con la línea que une un planeta con el Sol?",
+  "answer": "Barre áreas iguales en tiempos iguales",
+  "other": [
+   "Barre distancias iguales en tiempos iguales",
+   "Mantiene una longitud constante",
+   "Siempre apunta al centro de la elipse"
+  ],
+  "explanation": "La segunda ley de Kepler establece la igualdad de áreas barridas en intervalos de tiempo iguales.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "g",
+  "text": "¿En qué dos disciplinas recibió Marie Curie premios Nobel?",
+  "answer": "Física y Química",
+  "other": [
+   "Medicina y Física",
+   "Química y Literatura",
+   "Medicina y Química"
+  ],
+  "explanation": "Marie Curie recibió el Nobel de Física en 1903 y el de Química en 1911.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "g",
+  "text": "Una urna tiene 3 bolas rojas y 2 azules. Se extraen dos sin reposición. ¿Cuál es la probabilidad de que ambas sean rojas?",
+  "answer": "3/10",
+  "other": [
+   "9/25",
+   "2/5",
+   "3/5"
+  ],
+  "explanation": "La probabilidad es (3/5) × (2/4) = 3/10.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "g",
+  "text": "Si todos los A son B y ningún B es C, ¿qué conclusión es necesariamente cierta?",
+  "answer": "Ningún A es C",
+  "other": [
+   "Todos los C son A",
+   "Todos los B son A",
+   "Algunos A son C"
+  ],
+  "explanation": "Como A está contenido en B y B no tiene elementos en C, A tampoco tiene elementos en C.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué base nitrogenada está presente en el ARN y reemplaza a la timina del ADN?",
+  "answer": "Uracilo",
+  "other": [
+   "Adenina",
+   "Guanina",
+   "Citosina"
+  ],
+  "explanation": "El ARN utiliza uracilo donde el ADN utiliza timina.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "Una viga simplemente apoyada de 6 m tiene una carga central de 12 kN. ¿Cuál es su momento flector máximo?",
+  "answer": "18 kN·m",
+  "other": [
+   "12 kN·m",
+   "36 kN·m",
+   "72 kN·m"
+  ],
+  "explanation": "Las reacciones son 6 kN; el momento máximo en el centro es 6 × 3 = 18 kN·m.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "Para una sección rectangular, I = b·h³/12. Si se duplica h manteniendo b, ¿cómo cambia I?",
+  "answer": "Se multiplica por 8",
+  "other": [
+   "Se multiplica por 2",
+   "Se multiplica por 4",
+   "Se divide por 2"
+  ],
+  "explanation": "La altura está elevada al cubo: 2³ = 8.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "c",
+  "text": "En el modelo de Euler, Pcr = π²EI/(KL)². Si se duplica L y lo demás no cambia, ¿qué ocurre con Pcr?",
+  "answer": "Se reduce a un cuarto",
+  "other": [
+   "Se duplica",
+   "Se reduce a la mitad",
+   "Se cuadruplica"
+  ],
+  "explanation": "La carga crítica es inversamente proporcional a L², por lo que pasa a Pcr/4.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "t",
+  "text": "Usando q = k·v, con densidad de 25 veh/km y velocidad de 40 km/h, ¿cuál es el flujo?",
+  "answer": "1.000 veh/h",
+  "other": [
+   "625 veh/h",
+   "1.600 veh/h",
+   "65 veh/h"
+  ],
+  "explanation": "El flujo es 25 × 40 = 1.000 veh/h, con magnitudes compatibles del mismo flujo de tránsito.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
+  "cat": "t",
+  "text": "En un modelo simplificado, la saturación es 1.800 veh/h y el verde efectivo 30 s de un ciclo de 90 s. ¿Cuál es la capacidad?",
+  "answer": "600 veh/h",
+  "other": [
+   "900 veh/h",
+   "1.200 veh/h",
+   "1.800 veh/h"
+  ],
+  "explanation": "La capacidad es s × g/C = 1.800 × 30/90 = 600 veh/h.",
+  "difficulty": "dificil",
+  "set": 1
+ },
+ {
   "cat": "g",
   "text": "¿Qué cordillera recorre gran parte del límite entre Chile y Argentina?",
   "answer": "Cordillera de los Andes",
@@ -403,10 +402,10 @@ const QUESTIONS = [
    "Los Pirineos"
   ],
   "explanation": "La cordillera de los Andes se extiende por el oeste de Sudamérica.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 16,
   "cat": "g",
   "text": "¿Cuál de estos animales es un mamífero?",
   "answer": "Delfín",
@@ -416,10 +415,10 @@ const QUESTIONS = [
    "Pingüino"
   ],
   "explanation": "Los delfines son mamíferos: respiran aire y alimentan a sus crías con leche.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 17,
   "cat": "g",
   "text": "¿Cuántos minutos tiene una hora?",
   "answer": "Sesenta",
@@ -429,10 +428,10 @@ const QUESTIONS = [
    "Noventa"
   ],
   "explanation": "Una hora equivale a sesenta minutos.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 18,
   "cat": "g",
   "text": "¿Qué país tiene forma de bota en los mapas?",
   "answer": "Italia",
@@ -442,10 +441,10 @@ const QUESTIONS = [
    "Noruega"
   ],
   "explanation": "La península italiana tiene una forma que recuerda a una bota.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 19,
   "cat": "g",
   "text": "¿Qué poeta chilena recibió el Premio Nobel de Literatura en 1945?",
   "answer": "Gabriela Mistral",
@@ -455,130 +454,10 @@ const QUESTIONS = [
    "María Luisa Bombal"
   ],
   "explanation": "Gabriela Mistral recibió el Premio Nobel de Literatura en 1945.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "cat": "g",
-  "text": "¿Cuál es la capital de Chile?",
-  "answer": "Santiago",
-  "other": [
-   "Valparaíso",
-   "Concepción",
-   "La Serena"
-  ],
-  "explanation": "Santiago es la capital de Chile.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Cuál es el planeta más grande del sistema solar?",
-  "answer": "Júpiter",
-  "other": [
-   "Marte",
-   "Tierra",
-   "Venus"
-  ],
-  "explanation": "Júpiter es el planeta de mayor tamaño del sistema solar.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Qué gas del aire utilizan los seres humanos para la respiración celular?",
-  "answer": "Oxígeno",
-  "other": [
-   "Helio",
-   "Neón",
-   "Argón"
-  ],
-  "explanation": "El oxígeno participa en la obtención de energía mediante la respiración celular.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Qué océano baña la costa de Chile?",
-  "answer": "Pacífico",
-  "other": [
-   "Atlántico",
-   "Ártico",
-   "Índico"
-  ],
-  "explanation": "La costa chilena se encuentra frente al océano Pacífico.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Cuántos lados tiene un triángulo?",
-  "answer": "Tres",
-  "other": [
-   "Cuatro",
-   "Cinco",
-   "Seis"
-  ],
-  "explanation": "Un triángulo tiene tres lados y tres vértices.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Qué unidad se utiliza para medir la masa en el Sistema Internacional?",
-  "answer": "Kilogramo",
-  "other": [
-   "Metro",
-   "Segundo",
-   "Kelvin"
-  ],
-  "explanation": "El kilogramo es la unidad básica de masa del Sistema Internacional.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿En qué país se encuentra la Torre Eiffel?",
-  "answer": "Francia",
-  "other": [
-   "Italia",
-   "Alemania",
-   "España"
-  ],
-  "explanation": "La Torre Eiffel está en París, Francia.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Qué estrella se encuentra en el centro del sistema solar?",
-  "answer": "El Sol",
-  "other": [
-   "Sirio",
-   "Polaris",
-   "Betelgeuse"
-  ],
-  "explanation": "Los planetas del sistema solar orbitan alrededor del Sol.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Cómo se llama el cambio de estado de líquido a gas?",
-  "answer": "Vaporización",
-  "other": [
-   "Solidificación",
-   "Fusión",
-   "Condensación"
-  ],
-  "explanation": "La vaporización es el paso de líquido a gas; puede ocurrir por evaporación o ebullición.",
-  "set": 2
- },
- {
-  "cat": "g",
-  "text": "¿Qué idioma se habla mayoritariamente en Brasil?",
-  "answer": "Portugués",
-  "other": [
-   "Español",
-   "Francés",
-   "Italiano"
-  ],
-  "explanation": "El portugués es el idioma oficial de Brasil.",
-  "set": 2
- },
- {
-  "id": 30,
   "cat": "c",
   "text": "¿En qué unidad se expresa habitualmente la resistencia a compresión del hormigón?",
   "answer": "Megapascales (MPa)",
@@ -588,10 +467,10 @@ const QUESTIONS = [
    "Metros cuadrados (m²)"
   ],
   "explanation": "La resistencia es una fuerza por unidad de área. El MPa equivale a un millón de pascales.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 31,
   "cat": "c",
   "text": "¿Qué es una viga?",
   "answer": "Un elemento estructural que suele resistir cargas mediante flexión",
@@ -601,10 +480,10 @@ const QUESTIONS = [
    "Un equipo de excavación"
   ],
   "explanation": "Las vigas reciben cargas y las transmiten a sus apoyos, normalmente trabajando a flexión y corte.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "id": 32,
   "cat": "c",
   "text": "¿Por qué se compacta el suelo antes de construir un relleno de apoyo?",
   "answer": "Para reducir vacíos y mejorar su comportamiento",
@@ -614,7 +493,8 @@ const QUESTIONS = [
    "Para eliminar toda su humedad"
   ],
   "explanation": "La compactación aumenta la densidad del suelo y puede mejorar su capacidad de soporte.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -626,82 +506,10 @@ const QUESTIONS = [
    "Una pintura"
   ],
   "explanation": "Las losas reciben cargas y las transmiten a vigas, muros o columnas.",
-  "set": 2
+  "set": 2,
+  "difficulty": "facil"
  },
  {
-  "cat": "c",
-  "text": "¿Qué material actúa como aglomerante en el hormigón convencional?",
-  "answer": "Cemento",
-  "other": [
-   "Grava",
-   "Arena",
-   "Acero"
-  ],
-  "explanation": "El cemento reacciona con el agua y forma una pasta que une los áridos.",
-  "set": 2
- },
- {
-  "cat": "c",
-  "text": "¿Qué es la albañilería?",
-  "answer": "Construcción con unidades como ladrillos o bloques",
-  "other": [
-   "Una técnica para medir tránsito",
-   "Un tipo de pintura",
-   "Un equipo de elevación"
-  ],
-  "explanation": "La albañilería emplea unidades como ladrillos o bloques, normalmente unidas con mortero.",
-  "set": 2
- },
- {
-  "cat": "c",
-  "text": "¿Para qué sirve un muro de contención?",
-  "answer": "Para sostener tierra y resistir su empuje lateral",
-  "other": [
-   "Para medir distancias",
-   "Para ventilar una sala",
-   "Para preparar hormigón"
-  ],
-  "explanation": "Estos muros permiten mantener desniveles del terreno.",
-  "set": 2
- },
- {
-  "cat": "c",
-  "text": "¿Qué equipo se utiliza para excavar tierra?",
-  "answer": "Excavadora",
-  "other": [
-   "Hormigonera",
-   "Nivel óptico",
-   "Vibrador de hormigón"
-  ],
-  "explanation": "La excavadora utiliza un brazo y un cucharón para remover material.",
-  "set": 2
- },
- {
-  "cat": "c",
-  "text": "¿Qué se considera una carga permanente?",
-  "answer": "El peso propio de la estructura",
-  "other": [
-   "Una ráfaga ocasional de viento",
-   "Solo el peso de visitantes",
-   "Una vibración ocasional"
-  ],
-  "explanation": "El peso propio y los elementos fijos son ejemplos de cargas permanentes.",
-  "set": 2
- },
- {
-  "cat": "c",
-  "text": "¿Cuál es una función del aislamiento térmico?",
-  "answer": "Reducir la transferencia de calor",
-  "other": [
-   "Sustituir todas las columnas",
-   "Aumentar las filtraciones",
-   "Medir la humedad del suelo"
-  ],
-  "explanation": "El aislamiento ayuda a conservar la temperatura interior.",
-  "set": 2
- },
- {
-  "id": 38,
   "cat": "t",
   "text": "¿Qué elemento ayuda a una persona en silla de ruedas a pasar de la vereda a la calzada?",
   "answer": "Un rebaje de solera accesible",
@@ -711,55 +519,267 @@ const QUESTIONS = [
    "Una zanja"
   ],
   "explanation": "El rebaje permite salvar el desnivel; su pendiente y continuidad deben facilitar el desplazamiento.",
+  "set": 2,
+  "difficulty": "facil"
+ },
+ {
+  "cat": "g",
+  "text": "¿En qué año comenzó la Revolución Francesa?",
+  "answer": "1789",
+  "other": [
+   "1776",
+   "1810",
+   "1848"
+  ],
+  "explanation": "La Revolución Francesa comenzó en 1789.",
+  "difficulty": "media",
   "set": 2
  },
  {
-  "id": 39,
-  "cat": "t",
-  "text": "¿Qué función cumplen las demarcaciones viales?",
-  "answer": "Guiar y ordenar los movimientos en la vía",
+  "cat": "g",
+  "text": "¿Qué organelo se asocia con la producción de ATP mediante respiración celular?",
+  "answer": "Mitocondria",
   "other": [
-   "Reemplazar el pavimento",
-   "Medir la lluvia",
-   "Iluminar la calle"
+   "Ribosoma",
+   "Lisosoma",
+   "Aparato de Golgi"
   ],
-  "explanation": "Líneas, símbolos y otras marcas ayudan a organizar la circulación y orientar a sus usuarios.",
+  "explanation": "Las mitocondrias producen gran parte del ATP en células eucariotas mediante respiración celular.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Quién escribió La metamorfosis?",
+  "answer": "Franz Kafka",
+  "other": [
+   "Jorge Luis Borges",
+   "Ernest Hemingway",
+   "Fiódor Dostoievski"
+  ],
+  "explanation": "La metamorfosis es una obra de Franz Kafka, publicada en 1915.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué escala mineralógica ordena la dureza por resistencia al rayado?",
+  "answer": "Escala de Mohs",
+  "other": [
+   "Escala Celsius",
+   "Escala de Beaufort",
+   "Escala de pH"
+  ],
+  "explanation": "La escala de Mohs compara la capacidad de un mineral para rayar a otro.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Cuál es la suma de los ángulos interiores de un triángulo en un plano?",
+  "answer": "180°",
+  "other": [
+   "90°",
+   "270°",
+   "360°"
+  ],
+  "explanation": "En geometría euclidiana, los ángulos interiores de un triángulo suman 180°.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "En un plano a escala 1:50, una pared mide 8 cm. ¿Cuánto mide realmente?",
+  "answer": "4 m",
+  "other": [
+   "0,4 m",
+   "8 m",
+   "40 m"
+  ],
+  "explanation": "8 cm × 50 = 400 cm = 4 m.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué deformación tiende a provocar un asentamiento diferencial entre apoyos?",
+  "answer": "Distorsión y posibles grietas",
+  "other": [
+   "Un descenso idéntico sin distorsión",
+   "Un aumento uniforme del peso",
+   "La desaparición de las cargas"
+  ],
+  "explanation": "Si los apoyos se asientan de manera distinta, la estructura puede distorsionarse y agrietarse.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué propiedad relaciona esfuerzo y deformación unitaria en el rango elástico lineal?",
+  "answer": "Módulo de elasticidad",
+  "other": [
+   "Densidad",
+   "Conductividad térmica",
+   "Porosidad"
+  ],
+  "explanation": "La ley de Hooke relaciona esfuerzo y deformación mediante el módulo de elasticidad E.",
+  "difficulty": "media",
   "set": 2
  },
  {
   "cat": "t",
-  "text": "¿Qué es el ciclo de un semáforo?",
-  "answer": "El tiempo de una secuencia completa de indicaciones",
+  "text": "En 20 minutos pasan 300 vehículos. ¿Cuál es el flujo equivalente por hora?",
+  "answer": "900 veh/h",
   "other": [
-   "Solo el tiempo rojo",
-   "La altura del poste",
-   "La cantidad de luces"
+   "600 veh/h",
+   "300 veh/h",
+   "1.200 veh/h"
   ],
-  "explanation": "El ciclo termina cuando comienza nuevamente la misma secuencia.",
+  "explanation": "Una hora contiene tres intervalos de 20 minutos: 300 × 3 = 900 veh/h.",
+  "difficulty": "media",
   "set": 2
  },
  {
   "cat": "t",
-  "text": "¿Qué es un paso peatonal?",
-  "answer": "Un lugar destinado al cruce de peatones",
+  "text": "¿Qué diferencia hay entre flujo y densidad de tránsito?",
+  "answer": "El flujo cuenta vehículos por tiempo y la densidad por longitud",
   "other": [
-   "Un carril exclusivo de carga",
-   "Un estacionamiento de buses",
-   "Un tramo de vía férrea"
+   "Ambos miden kilómetros por hora",
+   "El flujo mide vehículos estacionados y la densidad pasajeros",
+   "La densidad siempre es igual a la velocidad"
   ],
-  "explanation": "Los pasos peatonales organizan el cruce de personas a través de la calzada.",
+  "explanation": "El flujo suele expresarse en veh/h y la densidad en veh/km.",
+  "difficulty": "media",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Quién pintó Las meninas?",
+  "answer": "Diego Velázquez",
+  "other": [
+   "Francisco de Goya",
+   "El Greco",
+   "Bartolomé Murillo"
+  ],
+  "explanation": "Las meninas es una obra de Diego Velázquez conservada en el Museo del Prado.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "Una población se duplica cada 3 horas. Si comienza con 100 individuos, ¿cuántos hay tras 9 horas?",
+  "answer": "800",
+  "other": [
+   "300",
+   "600",
+   "900"
+  ],
+  "explanation": "Ocurren tres duplicaciones: 100 × 2³ = 800.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Cuántas diagonales tiene un hexágono?",
+  "answer": "9",
+  "other": [
+   "6",
+   "12",
+   "15"
+  ],
+  "explanation": "Un polígono de n lados tiene n(n − 3)/2 diagonales: 6 × 3/2 = 9.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué representa el número atómico de un elemento?",
+  "answer": "El número de protones de su núcleo",
+  "other": [
+   "El número de neutrones",
+   "La suma de protones y neutrones",
+   "La masa en gramos de un átomo"
+  ],
+  "explanation": "El número atómico identifica al elemento por la cantidad de protones.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "g",
+  "text": "Una cantidad aumenta 20% y después disminuye 20%. ¿Cómo queda respecto de la original?",
+  "answer": "4% menor",
+  "other": [
+   "Igual",
+   "4% mayor",
+   "20% menor"
+  ],
+  "explanation": "Los factores se multiplican: 1,20 × 0,80 = 0,96, equivalente a una reducción del 4%.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "Una viga simplemente apoyada de 4 m recibe 5 kN/m en toda su longitud. Con Mmax = wL²/8, ¿cuál es Mmax?",
+  "answer": "10 kN·m",
+  "other": [
+   "5 kN·m",
+   "20 kN·m",
+   "40 kN·m"
+  ],
+  "explanation": "Se obtiene 5 × 4²/8 = 10 kN·m.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "Una columna recibe 120 kN sobre 0,02 m². ¿Cuál es su esfuerzo axial medio?",
+  "answer": "6 MPa",
+  "other": [
+   "0,6 MPa",
+   "60 MPa",
+   "2,4 MPa"
+  ],
+  "explanation": "120/0,02 = 6.000 kN/m² = 6.000 kPa = 6 MPa.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "c",
+  "text": "Una viga en voladizo tiene flecha δ = PL³/(3EI). Si L se duplica, manteniendo lo demás, ¿cómo cambia δ?",
+  "answer": "Se multiplica por 8",
+  "other": [
+   "Se multiplica por 2",
+   "Se multiplica por 4",
+   "Se reduce a la mitad"
+  ],
+  "explanation": "La flecha depende del cubo de L, por lo que el factor es 2³ = 8.",
+  "difficulty": "dificil",
   "set": 2
  },
  {
   "cat": "t",
-  "text": "¿Qué describe una cola vehicular?",
-  "answer": "Vehículos que esperan para avanzar",
+  "text": "Una cola comienza con 10 vehículos. Durante 30 s llegan 0,5 veh/s y salen 0,3 veh/s de forma constante. ¿Cuántos quedan?",
+  "answer": "16 vehículos",
   "other": [
-   "Vehículos estacionados permanentemente",
-   "Un tramo de vereda",
-   "Una ruta de carga"
+   "6 vehículos",
+   "10 vehículos",
+   "25 vehículos"
   ],
-  "explanation": "Una cola aparece cuando los vehículos deben esperar por restricciones o falta de capacidad.",
+  "explanation": "La cola aumenta (0,5 − 0,3) × 30 = 6 vehículos; termina con 16.",
+  "difficulty": "dificil",
+  "set": 2
+ },
+ {
+  "cat": "t",
+  "text": "Un bus tarda 50 min en ida, 40 min en vuelta y 10 min en descansos por ciclo. Con salidas cada 10 min, ¿cuántos buses se requieren en un modelo ideal sin reserva?",
+  "answer": "10 buses",
+  "other": [
+   "5 buses",
+   "9 buses",
+   "12 buses"
+  ],
+  "explanation": "El tiempo de ciclo es 100 min; la flota mínima ideal es 100/10 = 10 buses.",
+  "difficulty": "dificil",
   "set": 2
  },
  {
@@ -772,7 +792,8 @@ const QUESTIONS = [
    "Diez"
   ],
   "explanation": "El siete solo tiene como divisores positivos al uno y a sí mismo.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -784,7 +805,8 @@ const QUESTIONS = [
    "Treinta y uno"
   ],
   "explanation": "Los años bisiestos tienen un día adicional en febrero.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -796,7 +818,8 @@ const QUESTIONS = [
    "India"
   ],
   "explanation": "Los juegos antiguos se celebraban en Olimpia, Grecia.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -808,7 +831,8 @@ const QUESTIONS = [
    "Tambor"
   ],
   "explanation": "En un piano acústico, las teclas accionan martillos que golpean cuerdas.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -820,127 +844,8 @@ const QUESTIONS = [
    "Quito"
   ],
   "explanation": "Buenos Aires es la capital de Argentina.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Qué animal es conocido por tener una trompa?",
-  "answer": "Elefante",
-  "other": [
-   "Jirafa",
-   "León",
-   "Cebra"
-  ],
-  "explanation": "La trompa del elefante le sirve para respirar, beber y manipular objetos.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Cuántos segundos tiene un minuto?",
-  "answer": "Sesenta",
-  "other": [
-   "Cien",
-   "Treinta",
-   "Veinte"
-  ],
-  "explanation": "Un minuto equivale a sesenta segundos.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Qué órgano permite principalmente el intercambio de gases al respirar?",
-  "answer": "Pulmones",
-  "other": [
-   "Hígado",
-   "Estómago",
-   "Páncreas"
-  ],
-  "explanation": "En los pulmones se intercambian oxígeno y dióxido de carbono entre aire y sangre.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Cómo se llama el cambio de estado de sólido a líquido?",
-  "answer": "Fusión",
-  "other": [
-   "Condensación",
-   "Solidificación",
-   "Sublimación"
-  ],
-  "explanation": "La fusión ocurre cuando un sólido pasa al estado líquido.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿En qué continente se encuentra Japón?",
-  "answer": "Asia",
-  "other": [
-   "África",
-   "Europa",
-   "América"
-  ],
-  "explanation": "Japón es un país insular de Asia.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Cuántos grados mide un ángulo recto?",
-  "answer": "90 grados",
-  "other": [
-   "45 grados",
-   "180 grados",
-   "360 grados"
-  ],
-  "explanation": "Un ángulo recto mide 90 grados.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Cuál de estos materiales es atraído fácilmente por un imán común?",
-  "answer": "Hierro",
-  "other": [
-   "Vidrio",
-   "Madera",
-   "Papel"
-  ],
-  "explanation": "El hierro es un material ferromagnético.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Qué científico es conocido por la teoría de la relatividad?",
-  "answer": "Albert Einstein",
-  "other": [
-   "Charles Darwin",
-   "Louis Pasteur",
-   "Gregor Mendel"
-  ],
-  "explanation": "Einstein desarrolló las teorías de la relatividad especial y general.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Cuál es la capital de Perú?",
-  "answer": "Lima",
-  "other": [
-   "Bogotá",
-   "Quito",
-   "La Paz"
-  ],
-  "explanation": "Lima es la capital de Perú.",
-  "set": 3
- },
- {
-  "cat": "g",
-  "text": "¿Qué parte de una planta absorbe principalmente agua del suelo?",
-  "answer": "Las raíces",
-  "other": [
-   "Las flores",
-   "Los frutos",
-   "Los pétalos"
-  ],
-  "explanation": "Las raíces absorben agua y nutrientes minerales del suelo.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -952,7 +857,8 @@ const QUESTIONS = [
    "Para enfriar el suelo"
   ],
   "explanation": "La vibración facilita la compactación y reduce vacíos.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -964,7 +870,8 @@ const QUESTIONS = [
    "La cantidad de obreros"
   ],
   "explanation": "Las cotas indican dimensiones y distancias entre elementos.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -976,7 +883,8 @@ const QUESTIONS = [
    "Para medir el suelo"
   ],
   "explanation": "La canaleta conduce el agua hacia las bajadas de aguas lluvias.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -988,79 +896,8 @@ const QUESTIONS = [
    "Aceite"
   ],
   "explanation": "El mortero une las unidades de albañilería y ayuda a distribuir cargas.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Qué significa tracción en un elemento estructural?",
-  "answer": "Las fuerzas tienden a alargarlo",
-  "other": [
-   "Las fuerzas tienden a acortarlo",
-   "El elemento no recibe cargas",
-   "El elemento siempre gira"
-  ],
-  "explanation": "La tracción tiende a estirar un elemento.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Para qué sirve una junta de dilatación?",
-  "answer": "Para permitir movimientos por cambios de temperatura",
-  "other": [
-   "Para impedir todo movimiento",
-   "Para aumentar la altura del edificio",
-   "Para mezclar hormigón"
-  ],
-  "explanation": "Las juntas permiten movimientos relativos y ayudan a evitar daños por deformaciones restringidas.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Qué unidad es adecuada para medir el área de un piso?",
-  "answer": "Metros cuadrados (m²)",
-  "other": [
-   "Metros cúbicos (m³)",
-   "Kilogramos (kg)",
-   "Segundos (s)"
-  ],
-  "explanation": "Un área se expresa en unidades de longitud al cuadrado.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Qué equipo mezcla los componentes del hormigón?",
-  "answer": "Hormigonera",
-  "other": [
-   "Excavadora",
-   "Grúa torre",
-   "Rodillo compactador"
-  ],
-  "explanation": "La hormigonera mezcla cemento, agua y áridos.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Qué función cumple un andamio?",
-  "answer": "Proporcionar una plataforma temporal de trabajo",
-  "other": [
-   "Reemplazar una fundación",
-   "Medir el caudal",
-   "Secar el cemento"
-  ],
-  "explanation": "Los andamios facilitan el acceso y trabajo en altura.",
-  "set": 3
- },
- {
-  "cat": "c",
-  "text": "¿Qué es el recubrimiento de las armaduras?",
-  "answer": "La distancia desde la superficie del hormigón hasta el acero más cercano",
-  "other": [
-   "La longitud total de una barra",
-   "La pintura de la fachada",
-   "El ancho de una ventana"
-  ],
-  "explanation": "El recubrimiento ayuda a proteger el acero y favorece su adherencia y resistencia al fuego.",
-  "set": 3
+  "set": 3,
+  "difficulty": "facil"
  },
  {
   "cat": "t",
@@ -1072,54 +909,267 @@ const QUESTIONS = [
    "Un traslado sin vehículos"
   ],
   "explanation": "Puede combinar, por ejemplo, camión, tren y barco.",
+  "set": 3,
+  "difficulty": "facil"
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué científico formuló las leyes clásicas del movimiento y la gravitación universal?",
+  "answer": "Isaac Newton",
+  "other": [
+   "Charles Darwin",
+   "Gregor Mendel",
+   "Louis Pasteur"
+  ],
+  "explanation": "Newton formuló tres leyes del movimiento y la ley de gravitación universal.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué estrecho conecta el océano Atlántico con el mar Mediterráneo?",
+  "answer": "Estrecho de Gibraltar",
+  "other": [
+   "Estrecho de Magallanes",
+   "Estrecho de Bering",
+   "Estrecho de Ormuz"
+  ],
+  "explanation": "El estrecho de Gibraltar conecta el Atlántico con el Mediterráneo.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué caracteriza a una solución con pH menor que 7 a 25 °C?",
+  "answer": "Es ácida",
+  "other": [
+   "Es neutra",
+   "Es necesariamente salada",
+   "Es básica"
+  ],
+  "explanation": "A 25 °C, un pH menor que 7 indica una solución ácida.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Quién compuso Las cuatro estaciones?",
+  "answer": "Antonio Vivaldi",
+  "other": [
+   "Ludwig van Beethoven",
+   "Wolfgang Amadeus Mozart",
+   "Frédéric Chopin"
+  ],
+  "explanation": "Las cuatro estaciones es un conjunto de conciertos de Vivaldi.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Cuál es la mediana de 2, 4, 7, 9 y 13?",
+  "answer": "7",
+  "other": [
+   "4",
+   "9",
+   "6"
+  ],
+  "explanation": "Con cinco datos ordenados, la mediana es el tercer valor: 7.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "Una sección rectangular mide 0,20 m por 0,30 m. ¿Cuál es su área?",
+  "answer": "0,06 m²",
+  "other": [
+   "0,6 m²",
+   "0,006 m²",
+   "0,50 m²"
+  ],
+  "explanation": "El área es 0,20 × 0,30 = 0,06 m².",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué función cumple una barrera de vapor en una envolvente?",
+  "answer": "Limitar la difusión de vapor de agua",
+  "other": [
+   "Sustituir la estructura",
+   "Evacuar agua por una canaleta",
+   "Generar ventilación natural"
+  ],
+  "explanation": "Una barrera de vapor limita el paso de vapor; su ubicación depende del diseño y del clima.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué representa un diagrama de Gantt?",
+  "answer": "Actividades y su duración en el tiempo",
+  "other": [
+   "La resistencia del hormigón",
+   "El esfuerzo axial por área",
+   "La ubicación de grietas en un muro"
+  ],
+  "explanation": "El diagrama de Gantt organiza actividades en una escala temporal.",
+  "difficulty": "media",
   "set": 3
  },
  {
   "cat": "t",
-  "text": "¿Qué material caracteriza la superficie de un pavimento flexible?",
-  "answer": "Mezcla asfáltica",
+  "text": "¿Qué es una matriz origen-destino?",
+  "answer": "Una tabla de viajes entre zonas de origen y destino",
   "other": [
-   "Vidrio",
-   "Yeso",
-   "Madera"
+   "Un listado de patentes",
+   "Un inventario de neumáticos",
+   "Un plano de señalización"
   ],
-  "explanation": "Los pavimentos flexibles suelen tener una superficie asfáltica sobre capas de apoyo.",
+  "explanation": "La matriz registra viajes de cada zona de origen a cada zona de destino.",
+  "difficulty": "media",
   "set": 3
  },
  {
   "cat": "t",
-  "text": "¿Qué significa la frecuencia de buses?",
-  "answer": "Cantidad de buses por unidad de tiempo",
+  "text": "¿Qué significa la capacidad de una vía bajo condiciones definidas?",
+  "answer": "El máximo flujo que puede atender de manera sostenible",
   "other": [
-   "La longitud del vehículo",
-   "La velocidad máxima",
-   "La cantidad de ruedas"
+   "El número total de calles de una ciudad",
+   "La velocidad legal máxima",
+   "La cantidad de vehículos que caben estacionados"
   ],
-  "explanation": "La frecuencia puede expresarse en buses por hora.",
+  "explanation": "La capacidad se refiere al flujo atendible por unidad de tiempo bajo condiciones específicas.",
+  "difficulty": "media",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "Un isótopo tiene vida media de 8 años. Si comienza con 80 g, ¿cuánto queda tras 24 años?",
+  "answer": "10 g",
+  "other": [
+   "20 g",
+   "26,7 g",
+   "40 g"
+  ],
+  "explanation": "Transcurren tres vidas medias: 80 × (1/2)³ = 10 g.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Por qué hay estaciones del año en la Tierra?",
+  "answer": "Por la inclinación del eje terrestre y la traslación",
+  "other": [
+   "Principalmente por la distancia variable al Sol",
+   "Por los eclipses de Luna",
+   "Por cambios en el tamaño del Sol"
+  ],
+  "explanation": "La inclinación del eje cambia la incidencia solar y la duración del día a lo largo de la órbita.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "Se lanzan dos dados justos de seis caras. ¿Cuál es la probabilidad de obtener suma 7?",
+  "answer": "1/6",
+  "other": [
+   "1/12",
+   "1/3",
+   "7/36"
+  ],
+  "explanation": "Hay seis resultados favorables entre 36 pares posibles: 6/36 = 1/6.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué distingue a una célula procariota de una eucariota?",
+  "answer": "No tiene núcleo rodeado por membrana",
+  "other": [
+   "No contiene material genético",
+   "No tiene membrana celular",
+   "Siempre es más grande"
+  ],
+  "explanation": "En las procariotas el ADN no está encerrado en un núcleo delimitado por membrana.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "g",
+  "text": "En un mapa a escala 1:250.000, dos puntos distan 6 cm. ¿Cuál es su distancia representada en línea recta?",
+  "answer": "15 km",
+  "other": [
+   "1,5 km",
+   "150 km",
+   "2,5 km"
+  ],
+  "explanation": "6 × 250.000 = 1.500.000 cm = 15 km.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "Dos barras axiales del mismo material y longitud tienen áreas A y 2A. Bajo la misma fuerza y con δ = PL/(EA), ¿cómo se comparan sus alargamientos?",
+  "answer": "La barra de área 2A se alarga la mitad",
+  "other": [
+   "Ambas se alargan igual",
+   "La de área 2A se alarga el doble",
+   "La de área A se alarga la mitad"
+  ],
+  "explanation": "El alargamiento es inversamente proporcional al área, si los demás datos se mantienen.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "Una viga de 8 m, apoyada en sus extremos, recibe 16 kN a 2 m del apoyo izquierdo. ¿Cuál es la reacción derecha?",
+  "answer": "4 kN",
+  "other": [
+   "8 kN",
+   "12 kN",
+   "16 kN"
+  ],
+  "explanation": "Tomando momentos en el apoyo izquierdo: Rd × 8 = 16 × 2, de donde Rd = 4 kN.",
+  "difficulty": "dificil",
+  "set": 3
+ },
+ {
+  "cat": "c",
+  "text": "Dos actividades de 4 y 6 días se realizan en paralelo; ambas deben terminar antes de otra de 3 días. Sin restricciones adicionales, ¿cuál es la duración mínima?",
+  "answer": "9 días",
+  "other": [
+   "7 días",
+   "10 días",
+   "13 días"
+  ],
+  "explanation": "Las actividades paralelas demoran como máximo 6 días; luego se agregan 3 días: 9 en total.",
+  "difficulty": "dificil",
   "set": 3
  },
  {
   "cat": "t",
-  "text": "Si pasan 120 vehículos en 15 minutos, ¿cuál es el flujo equivalente por hora?",
-  "answer": "480 vehículos por hora",
+  "text": "Se recorre la mitad de una ruta a 30 km/h y la otra mitad a 60 km/h. Sin paradas, ¿cuál es la velocidad media total?",
+  "answer": "40 km/h",
   "other": [
-   "120 vehículos por hora",
-   "240 vehículos por hora",
-   "1.200 vehículos por hora"
+   "45 km/h",
+   "50 km/h",
+   "35 km/h"
   ],
-  "explanation": "Se multiplica por cuatro porque una hora contiene cuatro intervalos de 15 minutos.",
+  "explanation": "Para distancias iguales, la media es 2v1v2/(v1+v2) = 40 km/h.",
+  "difficulty": "dificil",
   "set": 3
  },
  {
   "cat": "t",
-  "text": "¿Qué se entiende por origen y destino de un viaje?",
-  "answer": "El lugar donde comienza y donde termina",
+  "text": "En un modelo sin pérdidas, un acceso necesita 800 veh/h y tiene saturación de 2.000 veh/h. ¿Qué fracción mínima del ciclo requiere de verde efectivo?",
+  "answer": "40%",
   "other": [
-   "La marca y modelo del vehículo",
-   "El número de ruedas",
-   "El ancho de una calle"
+   "25%",
+   "60%",
+   "80%"
   ],
-  "explanation": "El origen y el destino describen los extremos del desplazamiento.",
+  "explanation": "Con capacidad s × g/C, se necesita g/C = 800/2.000 = 0,40.",
+  "difficulty": "dificil",
   "set": 3
  },
  {
@@ -1132,7 +1182,8 @@ const QUESTIONS = [
    "Rugby"
   ],
   "explanation": "En el básquetbol se busca encestar el balón en la canasta rival.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -1144,7 +1195,8 @@ const QUESTIONS = [
    "Trapecio"
   ],
   "explanation": "La circunferencia está formada por puntos a una distancia constante de su centro.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -1156,7 +1208,8 @@ const QUESTIONS = [
    "Caballo"
   ],
   "explanation": "Las gallinas son aves y se reproducen mediante huevos.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -1168,7 +1221,8 @@ const QUESTIONS = [
    "Turquía"
   ],
   "explanation": "Las pirámides de Guiza están en Egipto.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "g",
@@ -1180,127 +1234,8 @@ const QUESTIONS = [
    "Gusto"
   ],
   "explanation": "Los oídos permiten percibir sonidos y también participan en el equilibrio.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Cuál es el resultado de 9 × 8?",
-  "answer": "72",
-  "other": [
-   "64",
-   "81",
-   "63"
-  ],
-  "explanation": "Nueve multiplicado por ocho es setenta y dos.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿En qué continente se encuentra la mayor parte del desierto del Sahara?",
-  "answer": "África",
-  "other": [
-   "Asia",
-   "Europa",
-   "Oceanía"
-  ],
-  "explanation": "El Sahara se extiende por el norte de África.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué color se obtiene al mezclar pintura azul y amarilla de manera convencional?",
-  "answer": "Verde",
-  "other": [
-   "Rojo",
-   "Violeta",
-   "Naranja"
-  ],
-  "explanation": "En la mezcla tradicional de pinturas, azul y amarillo producen verde.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué es un herbívoro?",
-  "answer": "Un animal que se alimenta principalmente de plantas",
-  "other": [
-   "Un animal que solo come carne",
-   "Un animal sin huesos",
-   "Un animal exclusivamente acuático"
-  ],
-  "explanation": "Los herbívoros se alimentan principalmente de material vegetal.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué instrumento sirve para orientarse utilizando el campo magnético terrestre?",
-  "answer": "Brújula",
-  "other": [
-   "Termómetro",
-   "Microscopio",
-   "Balanza"
-  ],
-  "explanation": "La aguja de una brújula se alinea aproximadamente con el campo magnético terrestre.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué escritor chileno recibió el Nobel de Literatura en 1971?",
-  "answer": "Pablo Neruda",
-  "other": [
-   "Vicente Huidobro",
-   "Nicanor Parra",
-   "Roberto Bolaño"
-  ],
-  "explanation": "Pablo Neruda recibió el Premio Nobel de Literatura en 1971.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Cuál es la capital de España?",
-  "answer": "Madrid",
-  "other": [
-   "Barcelona",
-   "Sevilla",
-   "Valencia"
-  ],
-  "explanation": "Madrid es la capital de España.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué planeta es conocido por su destacado sistema de anillos?",
-  "answer": "Saturno",
-  "other": [
-   "Mercurio",
-   "Marte",
-   "Venus"
-  ],
-  "explanation": "Saturno tiene un sistema de anillos especialmente visible.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué dispositivo transforma energía solar directamente en electricidad?",
-  "answer": "Panel fotovoltaico",
-  "other": [
-   "Caldera a gas",
-   "Motor diésel",
-   "Estufa a leña"
-  ],
-  "explanation": "Los paneles fotovoltaicos convierten la energía de la luz en electricidad.",
-  "set": 4
- },
- {
-  "cat": "g",
-  "text": "¿Qué nombre recibe el agua en estado sólido?",
-  "answer": "Hielo",
-  "other": [
-   "Vapor",
-   "Niebla",
-   "Rocío"
-  ],
-  "explanation": "El hielo es agua en estado sólido.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -1312,7 +1247,8 @@ const QUESTIONS = [
    "La mezcla de áridos"
   ],
   "explanation": "Las excavaciones se utilizan, por ejemplo, para fundaciones y zanjas.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -1324,7 +1260,8 @@ const QUESTIONS = [
    "Alicate"
   ],
   "explanation": "El nivel de burbuja permite verificar horizontalidad o verticalidad según su orientación.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "c",
@@ -1336,79 +1273,8 @@ const QUESTIONS = [
    "Una tubería eléctrica"
   ],
   "explanation": "Las zapatas son fundaciones superficiales que distribuyen las cargas sobre un área del terreno.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Qué se utiliza para medir longitudes directamente en una obra?",
-  "answer": "Cinta métrica",
-  "other": [
-   "Termómetro",
-   "Balanza",
-   "Sonómetro"
-  ],
-  "explanation": "La cinta métrica permite medir distancias y dimensiones.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Qué es el drenaje de una obra?",
-  "answer": "Un sistema para recoger y evacuar agua",
-  "other": [
-   "Una capa de pintura",
-   "Un refuerzo metálico",
-   "Una técnica de soldadura"
-  ],
-  "explanation": "El drenaje ayuda a manejar el agua y evitar acumulaciones.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Qué son los áridos del hormigón?",
-  "answer": "Materiales granulares como arena y grava",
-  "other": [
-   "Solo barras de acero",
-   "Solo agua potable",
-   "Planchas de madera"
-  ],
-  "explanation": "Los áridos constituyen una parte importante del volumen del hormigón.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Qué se entiende por fachada?",
-  "answer": "La cara exterior de un edificio",
-  "other": [
-   "Una fundación enterrada",
-   "Una tubería interior",
-   "El fondo de una excavación"
-  ],
-  "explanation": "Las fachadas conforman las caras exteriores del edificio.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Para qué sirve una grúa torre?",
-  "answer": "Para elevar y mover cargas en una obra",
-  "other": [
-   "Para mezclar mortero",
-   "Para medir temperaturas",
-   "Para compactar suelo"
-  ],
-  "explanation": "Las grúas torre permiten desplazar materiales y equipos dentro de su alcance.",
-  "set": 4
- },
- {
-  "cat": "c",
-  "text": "¿Qué significa el plazo de ejecución de una obra?",
-  "answer": "El tiempo previsto para realizarla",
-  "other": [
-   "El volumen total de hormigón",
-   "La altura de las columnas",
-   "El peso de los equipos"
-  ],
-  "explanation": "El plazo corresponde al tiempo asignado para completar los trabajos.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "t",
@@ -1420,7 +1286,8 @@ const QUESTIONS = [
    "Un estacionamiento subterráneo"
   ],
   "explanation": "Las rotondas organizan los movimientos alrededor de una isla central.",
-  "set": 4
+  "set": 4,
+  "difficulty": "facil"
  },
  {
   "cat": "t",
@@ -1432,54 +1299,267 @@ const QUESTIONS = [
    "Toneladas por litro"
   ],
   "explanation": "La velocidad relaciona distancia recorrida con tiempo.",
+  "set": 4,
+  "difficulty": "facil"
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué país se conoció históricamente como Persia?",
+  "answer": "Irán",
+  "other": [
+   "Irak",
+   "Siria",
+   "Jordania"
+  ],
+  "explanation": "Persia es el nombre histórico asociado a Irán.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué molécula almacena la información genética en las células?",
+  "answer": "ADN",
+  "other": [
+   "ATP",
+   "Glucosa",
+   "Hemoglobina"
+  ],
+  "explanation": "El ADN contiene la información genética celular.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué unidad del Sistema Internacional mide energía?",
+  "answer": "Julio (J)",
+  "other": [
+   "Vatio (W)",
+   "Pascal (Pa)",
+   "Amperio (A)"
+  ],
+  "explanation": "El julio mide energía; el vatio mide potencia.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Quién pintó Guernica?",
+  "answer": "Pablo Picasso",
+  "other": [
+   "Claude Monet",
+   "Diego Rivera",
+   "Henri Matisse"
+  ],
+  "explanation": "Guernica es una obra de Pablo Picasso realizada en 1937.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "Un producto cuesta 80 unidades y tiene 25% de descuento. ¿Cuál es su precio final?",
+  "answer": "60 unidades",
+  "other": [
+   "55 unidades",
+   "65 unidades",
+   "75 unidades"
+  ],
+  "explanation": "El descuento es 80 × 0,25 = 20; el precio final es 80 − 20 = 60.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué caracteriza a una estructura isostática estable?",
+  "answer": "Sus reacciones se determinan con las ecuaciones de equilibrio",
+  "other": [
+   "No tiene apoyos",
+   "No recibe cargas",
+   "Todas sus uniones son rígidas"
+  ],
+  "explanation": "En una estructura isostática estable, el equilibrio es suficiente para hallar las reacciones.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué es la relación agua/cemento, expresada usualmente para una mezcla?",
+  "answer": "Masa de agua dividida por masa de cemento",
+  "other": [
+   "Volumen de áridos dividido por longitud de la viga",
+   "Masa de acero dividida por masa de agua",
+   "Área de moldaje dividida por espesor"
+  ],
+  "explanation": "La relación agua/cemento usa las masas de agua y cemento de la mezcla.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "¿Qué ensayo de laboratorio estudia compactación del suelo para distintas humedades?",
+  "answer": "Ensayo Proctor",
+  "other": [
+   "Ensayo de asentamiento del hormigón",
+   "Ensayo de tracción del acero",
+   "Ensayo de iluminación"
+  ],
+  "explanation": "El ensayo Proctor relaciona humedad y densidad seca para una energía de compactación definida.",
+  "difficulty": "media",
   "set": 4
  },
  {
   "cat": "t",
-  "text": "¿Qué mide el tiempo de viaje?",
-  "answer": "El tiempo que tarda un desplazamiento entre dos puntos",
+  "text": "Un bus lleva 48 pasajeros y tiene capacidad para 60. ¿Cuál es su ocupación respecto de esa capacidad?",
+  "answer": "80%",
   "other": [
-   "La longitud del automóvil",
-   "La altura del conductor",
-   "El ancho de la calzada"
+   "60%",
+   "75%",
+   "90%"
   ],
-  "explanation": "El tiempo de viaje permite evaluar cuánto demora un recorrido.",
+  "explanation": "La ocupación es 48/60 × 100 = 80%.",
+  "difficulty": "media",
   "set": 4
  },
  {
   "cat": "t",
-  "text": "¿Qué es un carril de circulación?",
-  "answer": "Una franja de la calzada destinada a una fila de vehículos",
+  "text": "Una vía permite 1.200 veh/h y recibe 900 veh/h. ¿Cuál es la relación demanda/capacidad?",
+  "answer": "0,75",
   "other": [
-   "Un recinto de una estación",
-   "Una columna de un puente",
-   "Una capa de pintura interior"
+   "1,33",
+   "0,25",
+   "0,90"
   ],
-  "explanation": "Los carriles organizan el tránsito longitudinal en una calzada.",
+  "explanation": "La relación es 900/1.200 = 0,75.",
+  "difficulty": "media",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "Un reloj atrasa 2 minutos por hora real. Si se ajusta a las 08:00, ¿qué indica seis horas reales después?",
+  "answer": "13:48",
+  "other": [
+   "14:12",
+   "13:58",
+   "14:00"
+  ],
+  "explanation": "En seis horas pierde 12 minutos; a las 14:00 reales indica 13:48.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Cuál es el menor entero positivo divisible por 6, 8 y 12?",
+  "answer": "24",
+  "other": [
+   "12",
+   "48",
+   "96"
+  ],
+  "explanation": "El mínimo común múltiplo usa 2³ y 3: 8 × 3 = 24.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "La media de cuatro números es 10. Si se agrega el número 20, ¿cuál es la nueva media?",
+  "answer": "12",
+  "other": [
+   "10",
+   "15",
+   "14"
+  ],
+  "explanation": "La suma inicial es 40; (40 + 20)/5 = 12.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Qué indica un corrimiento al rojo cosmológico en la luz de galaxias lejanas?",
+  "answer": "El alargamiento de sus longitudes de onda por la expansión del universo",
+  "other": [
+   "Que toda galaxia es roja",
+   "Que la luz viaja más lento en el vacío",
+   "Que las estrellas han dejado de emitir"
+  ],
+  "explanation": "La expansión del universo estira las longitudes de onda de la luz durante su viaje.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "g",
+  "text": "¿Cuál es la probabilidad de obtener exactamente dos caras en tres lanzamientos de una moneda justa?",
+  "answer": "3/8",
+  "other": [
+   "1/8",
+   "1/2",
+   "3/4"
+  ],
+  "explanation": "Hay tres secuencias con dos caras entre ocho secuencias equiprobables.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "Una sección rectangular tiene momento M constante y esfuerzo máximo σ = Mc/I. Al duplicar su altura manteniendo el ancho, ¿qué ocurre con σ?",
+  "answer": "Se reduce a un cuarto",
+  "other": [
+   "Se reduce a la mitad",
+   "Se duplica",
+   "Se mantiene igual"
+  ],
+  "explanation": "La distancia c se duplica y la inercia I se multiplica por ocho: el esfuerzo pasa a 2/8 = 1/4.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "En una sección rectangular, una fuerza axial pasa por el centroide. Si la fuerza se aplica excéntricamente una distancia e, ¿qué solicitación adicional aparece?",
+  "answer": "Un momento de magnitud P·e",
+  "other": [
+   "Una fuerza adicional de magnitud P/e",
+   "Una reducción automática de masa",
+   "Una desaparición del esfuerzo axial"
+  ],
+  "explanation": "Una carga excéntrica equivale a una fuerza axial y un momento P × e.",
+  "difficulty": "dificil",
+  "set": 4
+ },
+ {
+  "cat": "c",
+  "text": "Se requieren 2 m³ de mezcla por pieza para 6 piezas y se agrega un 5% de margen sobre el volumen neto. ¿Cuánto se solicita?",
+  "answer": "12,6 m³",
+  "other": [
+   "12,05 m³",
+   "13,2 m³",
+   "10,8 m³"
+  ],
+  "explanation": "El volumen neto es 12 m³; con 5% adicional: 12 × 1,05 = 12,6 m³.",
+  "difficulty": "dificil",
   "set": 4
  },
  {
   "cat": "t",
-  "text": "¿Qué es la logística de última milla?",
-  "answer": "La etapa final de entrega hasta el destinatario",
+  "text": "Los cuatro conteos de 15 min son 200, 250, 300 y 250 vehículos. Con FHP = volumen horario/(4 × máximo conteo), ¿cuál es FHP?",
+  "answer": "0,8333 aproximadamente",
   "other": [
-   "La fabricación del vehículo",
-   "La extracción de materiales",
-   "La construcción de un puerto"
+   "1,2000",
+   "0,2500",
+   "1,0000"
   ],
-  "explanation": "La última milla conecta el punto final de distribución con el destinatario.",
+  "explanation": "El volumen es 1.000; FHP = 1.000/(4 × 300) = 0,8333 aproximadamente.",
+  "difficulty": "dificil",
   "set": 4
  },
  {
   "cat": "t",
-  "text": "¿Qué infraestructura utiliza principalmente un tren?",
-  "answer": "Una vía férrea",
+  "text": "En un sistema estable, L = λW. Si llegan 120 pasajeros/h y esperan en promedio 5 min, ¿cuántos pasajeros hay en promedio en la espera?",
+  "answer": "10 pasajeros",
   "other": [
-   "Una ciclovía",
-   "Una vereda",
-   "Una pista de aterrizaje"
+   "24 pasajeros",
+   "60 pasajeros",
+   "600 pasajeros"
   ],
-  "explanation": "Los trenes circulan sobre rieles que forman una vía férrea.",
+  "explanation": "Se convierte 5 min a 1/12 h: L = 120 × 1/12 = 10 pasajeros.",
+  "difficulty": "dificil",
   "set": 4
  }
 ].map((q,id)=>({...q,id}));
@@ -1487,13 +1567,14 @@ const $=id=>document.getElementById(id);
 let round=[],index=0,hits=0,answered=false,history=[];
 function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function show(view){['setup','game','results'].forEach(id=>$(id).hidden=id!==view);}
-function start(){round=shuffle(QUESTIONS.filter(q=>q.set===Number($('set').value)));index=0;hits=0;history=[];show('game');render();}
-function render(){answered=false;const q=round[index];$('position').textContent=`${index+1} / ${round.length}`;$('position').setAttribute('aria-label',`Set ${q.set}, pregunta ${index+1} de ${round.length}`);$('hits').textContent=hits;$('points').textContent=hits*100;setProgress(index/round.length*100);$('badge').textContent=q.cat==='g'?'🌎 Cultura general':q.cat==='c'?'🏗️ Construcción':'🚦 Transporte';$('question').textContent=q.text;$('options').replaceChildren();$('feedback').hidden=true;$('next').hidden=true;shuffle([q.answer,...q.other]).forEach((value,i)=>{const b=document.createElement('button');b.className='option';b.dataset.answer=value;const letter=document.createElement('span');letter.className='letter';letter.textContent='ABCD'[i];const label=document.createElement('span');label.textContent=value;b.append(letter,label);b.addEventListener('click',()=>answer(value));$('options').append(b);});$('question').focus();}
+function start(){const pool=QUESTIONS.filter(q=>q.set===Number($('set').value));round=['facil','media','dificil'].flatMap(d=>shuffle(pool.filter(q=>q.difficulty===d)));index=0;hits=0;history=[];show('game');render();}
+function setName(number){return Number(number)===4?'FINAL':`Set ${number}`;}
+function render(){answered=false;const q=round[index];const names={facil:'Fácil',media:'Media',dificil:'Difícil'};$('difficulty').textContent=`${names[q.difficulty]} · ${index<10?'1–10':index<20?'11–20':'21–30'}`;$('difficulty').dataset.level=q.difficulty;$('position').textContent=`${index+1} / ${round.length}`;$('position').setAttribute('aria-label',`${setName(q.set)}, pregunta ${index+1} de ${round.length}`);$('hits').textContent=hits;$('points').textContent=hits*100;setProgress(index/round.length*100);$('badge').textContent=q.cat==='g'?'🌎 Cultura general':q.cat==='c'?'🏗️ Construcción':'🚦 Transporte';$('question').textContent=q.text;$('options').replaceChildren();$('feedback').hidden=true;$('next').hidden=true;shuffle([q.answer,...q.other]).forEach((value,i)=>{const b=document.createElement('button');b.className='option';b.dataset.answer=value;const letter=document.createElement('span');letter.className='letter';letter.textContent='ABCD'[i];const label=document.createElement('span');label.textContent=value;b.append(letter,label);b.addEventListener('click',()=>answer(value));$('options').append(b);});$('question').focus();}
 function setProgress(value){$('fill').style.width=`${value}%`;$('progress').setAttribute('aria-valuenow',Math.round(value));}
 function answer(selected){if(answered)return;answered=true;const q=round[index],correct=selected===q.answer;if(correct)hits++;history.push({q,selected,correct});for(const b of $('options').children){b.disabled=true;if(b.dataset.answer===q.answer){b.classList.add('correct');b.lastChild.textContent+=' · Correcta';}else if(b.dataset.answer===selected){b.classList.add('wrong');b.lastChild.textContent+=' · Tu respuesta';}}$('hits').textContent=hits;$('points').textContent=hits*100;setProgress((index+1)/round.length*100);$('feedback').className=correct?'feedback':'feedback error';$('feedback-title').textContent=correct?'✓ ¡Correcto! +100 puntos':'Una oportunidad para aprender';$('explanation').textContent=q.explanation;$('feedback').hidden=false;$('next').textContent=index===round.length-1?'Ver resultados':'Siguiente pregunta';$('next').hidden=false;$('next').focus();}
-function finish(){show('results');const ratio=hits/round.length;$('result-title').textContent=ratio>=.8?'¡Gran trabajo de ingeniería!':ratio>=.5?'¡Vas por buen camino!':'¡Sigue construyendo conocimientos!';$('final-score').textContent=`${hits*100} puntos`;$('final-detail').textContent=`Set ${round[0].set} · ${hits} de ${round.length} respuestas correctas · ${Math.round(ratio*100)}% de aciertos`;$('result-message').textContent='Cada partida es una nueva oportunidad para aprender.';$('review-list').replaceChildren();history.forEach(({q,selected,correct},i)=>{const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=`${correct?'✓':'✗'} ${i+1}. ${q.text}`;details.append(summary);for(const text of [`Tu respuesta: ${selected}`,`Respuesta correcta: ${q.answer}`,q.explanation]){const p=document.createElement('p');p.textContent=text;details.append(p);}$('review-list').append(details);});$('result-title').focus();}
+function finish(){show('results');const ratio=hits/round.length;$('result-title').textContent=ratio>=.8?'¡Gran trabajo de ingeniería!':ratio>=.5?'¡Vas por buen camino!':'¡Sigue construyendo conocimientos!';$('final-score').textContent=`${hits*100} puntos`;$('final-detail').textContent=`${setName(round[0].set)} · ${hits} de ${round.length} respuestas correctas · ${Math.round(ratio*100)}% de aciertos`;$('result-message').textContent='Cada partida es una nueva oportunidad para aprender.';$('review-list').replaceChildren();history.forEach(({q,selected,correct},i)=>{const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent=`${correct?'✓':'✗'} ${i+1}. ${q.text}`;details.append(summary);for(const text of [`Tu respuesta: ${selected}`,`Respuesta correcta: ${q.answer}`,q.explanation]){const p=document.createElement('p');p.textContent=text;details.append(p);}$('review-list').append(details);});$('result-title').focus();}
 $('start').addEventListener('click',start);$('next').addEventListener('click',()=>{if(!answered)return;if(index===round.length-1)finish();else{index++;render();}});$('leave').addEventListener('click',()=>{if(confirm('¿Salir de la partida? Se perderá el progreso actual.')){show('setup');$('start').focus();}});$('again').addEventListener('click',start);$('settings').addEventListener('click',()=>{show('setup');$('set-'+$('set').value).focus();});
 
-function selectSet(number){$('set').value=String(number);for(let n=1;n<=4;n++)$('set-'+n).setAttribute('aria-pressed',String(n===number));$('start').textContent=`Jugar set ${number}`;}
+function selectSet(number){$('set').value=String(number);for(let n=1;n<=4;n++)$('set-'+n).setAttribute('aria-pressed',String(n===number));$('start').textContent=`Jugar ${Number(number)===4?'FINAL':'set '+number}`;}
 for(let n=1;n<=4;n++)$('set-'+n).addEventListener('click',()=>selectSet(n));
 selectSet(1);

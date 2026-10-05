@@ -1,8 +1,8 @@
 # Trivia ICT · Cultura general e ingeniería
 
-Trivia con 120 preguntas únicas de nivel sencillo, organizadas en cuatro sets seleccionables de 30 preguntas. Cada set contiene 15 preguntas de cultura general y 15 de ingeniería. Los sets 1, 2 y 3 incluyen 10 de construcción y 5 de transporte; el set 4 incluye 9 de construcción y 6 de transporte. En total: 60 de cultura general, 39 de construcción y 21 de transporte.
+Trivia con 120 preguntas únicas con dificultad progresiva, organizadas en cuatro sets seleccionables de 30 preguntas. Cada set contiene 15 preguntas de cultura general y 15 de ingeniería. Los sets 1, 2 y 3 incluyen 10 de construcción y 5 de transporte; FINAL incluye 9 de construcción y 6 de transporte. En total: 60 de cultura general, 39 de construcción y 21 de transporte.
 
-Cada partida recorre el set completo, mezclando preguntas y alternativas. Incluye 100 puntos por acierto, explicaciones y repaso final. Puedes repetir el mismo set o elegir otro al terminar.
+Cada partida recorre el set completo: preguntas 1–10 fáciles, 11–20 medias y 21–30 difíciles. Las preguntas se mezclan únicamente dentro de su bloque de dificultad; las alternativas se mezclan siempre. Cada bloque incluye 5 preguntas de cultura y 5 de ingeniería. El cuarto set se llama FINAL. Incluye 100 puntos por acierto, explicaciones y repaso final. Puedes repetir el mismo set o elegir otro al terminar.
 
 ## Abrir la trivia
 
@@ -22,7 +22,7 @@ Puedes usar un repositorio público para publicar con GitHub Free. La disponibil
 
 ## Cambiar las preguntas
 
-El banco `QUESTIONS` está dentro de `app.js`. Cada objeto contiene `cat` (g: cultura, c: construcción, t: transporte), `text`, `answer`, `other` (tres distractores), `explanation` y `set` (1 a 4). Mantén 30 preguntas por set, con 15 de cultura y 15 de ingeniería, y cuatro alternativas distintas por pregunta.
+El banco `QUESTIONS` está dentro de `app.js`. Cada objeto contiene `cat` (g: cultura, c: construcción, t: transporte), `text`, `answer`, `other` (tres distractores), `explanation`, `set` (1 a 4) y `difficulty` (facil, media o dificil). Mantén 30 preguntas por set, con 15 de cultura y 15 de ingeniería, con 10 preguntas por dificultad (5 de cultura y 5 de ingeniería), y cuatro alternativas distintas por pregunta.
 
 El puntaje y la partida viven en el navegador durante la sesión. Esta versión no incluye cuentas, clasificación compartida ni partidas sincronizadas entre dispositivos.
 
@@ -39,3 +39,9 @@ El ZIP incluye los tres archivos originales, la página HTML, su diseño en `sty
 ## Diseño
 
 Interfaz de concurso en azul oscuro y naranja, selección de sets mediante tarjetas, logos destacados y pantallas de juego y resultados adaptables al ancho de pantalla. Los controles de selección funcionan con teclado y muestran el set elegido. No requiere herramientas de compilación.
+
+## Referencias consultadas para preguntas de cultura general
+
+- NASA: https://science.nasa.gov/solar-system/orbits-and-keplers-laws/
+- Nobel Prize: https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/
+- Museo del Prado: https://www.museodelprado.es/coleccion/obra-de-arte/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f
